@@ -18,8 +18,8 @@
            onFailure:(void (^)(void))onFailure
 {
     NSMutableArray *models = [[NSMutableArray alloc] init];
-    
-    [self sendGET:@"http://artur.com/items.json" success:^(NSDictionary *json) {
+
+    [self sendGET:@"http://localhost:7000/items" success:^(NSDictionary *json) {
         NSLog(@"success");
         
         for (NSDictionary *json_item in json)

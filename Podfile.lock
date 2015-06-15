@@ -1,27 +1,27 @@
 PODS:
-  - AFNetworking (2.5.1):
-    - AFNetworking/NSURLConnection (= 2.5.1)
-    - AFNetworking/NSURLSession (= 2.5.1)
-    - AFNetworking/Reachability (= 2.5.1)
-    - AFNetworking/Security (= 2.5.1)
-    - AFNetworking/Serialization (= 2.5.1)
-    - AFNetworking/UIKit (= 2.5.1)
-  - AFNetworking/NSURLConnection (2.5.1):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.1):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.1)
-  - AFNetworking/Security (2.5.1)
-  - AFNetworking/Serialization (2.5.1)
-  - AFNetworking/UIKit (2.5.1):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - AppbotX (1.0.6)
-  - ARCollectionViewMasonryLayout (2.0.0)
+  - ARCollectionViewMasonryLayout (2.1.2)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -38,25 +38,25 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - ECSlidingViewController (2.0.3)
-  - JSONKit (1.4)
-  - Mantle (1.5.4):
-    - Mantle/extobjc (= 1.5.4)
-  - Mantle/extobjc (1.5.4)
+  - Mantle (2.0.2):
+    - Mantle/extobjc (= 2.0.2)
+  - Mantle/extobjc (2.0.2)
   - MBProgressHUD (0.9.1)
-  - SDWebImage (3.7.1):
-    - SDWebImage/Core (= 3.7.1)
-  - SDWebImage/Core (3.7.1)
+  - SBJson (4.0.1)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5.1)
+  - AFNetworking (~> 2.5.4)
   - AppbotX (from `https://github.com/appbotx/appbotx.git`)
-  - ARCollectionViewMasonryLayout (~> 2.0.0)
+  - ARCollectionViewMasonryLayout (~> 2.1.2)
   - BlocksKit (~> 2.2.5)
   - ECSlidingViewController (~> 2.0.3)
-  - JSONKit (~> 1.4)
-  - Mantle (~> 1.5.4)
+  - Mantle (~> 2.0.2)
   - MBProgressHUD (~> 0.9)
-  - SDWebImage (~> 3.7.1)
+  - SBJson (~> 4.0.0)
+  - SDWebImage (~> 3.7.2)
 
 EXTERNAL SOURCES:
   AppbotX:
@@ -68,14 +68,14 @@ CHECKOUT OPTIONS:
     :git: https://github.com/appbotx/appbotx.git
 
 SPEC CHECKSUMS:
-  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AppbotX: 57bbefff2b359c9d0407a0d90588fd91cff45027
-  ARCollectionViewMasonryLayout: 40993cb65522139cb2cd6ed255c91a6caee5c4dd
-  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
-  ECSlidingViewController: e79fe856bfb1a99a39c995377a1943e50f7647eb
-  JSONKit: 2111ac2b11f7ea0d07bb1d9d09e650918336a134
-  Mantle: d5fbaf30fbc58031223af13812c060e15934a1fe
-  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
-  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  ARCollectionViewMasonryLayout: 776730bdedd0c7570a5e904c370e4e120f98ea62
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  SBJson: 68f16f446bd6047dc3dd1ec4919a468c2cd7fedd
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.2

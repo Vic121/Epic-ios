@@ -19,7 +19,7 @@
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     [manager GET:url parameters:nil success:^(AFHTTPRequestOperation *operation, id json) {
-//        NSLog(@"JSON: %@", json);
+        NSLog(@"JSON: %@", json);
         success(json);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
