@@ -1,0 +1,1 @@
+../../../AppbotX/Classes/Views/ABXFAQTableViewCell.h

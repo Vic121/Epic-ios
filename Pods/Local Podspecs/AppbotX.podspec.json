@@ -1,0 +1,28 @@
+{
+  "name": "AppbotX",
+  "version": "1.0.6",
+  "summary": "AppbotX is an Obj-C lib for the Appbot server.",
+  "description": "",
+  "homepage": "http://appbot.co",
+  "license": "MIT",
+  "authors": {
+    "Stuart Hall": "stuartkhall@gmail.com"
+  },
+  "source": {
+    "git": "http://github.com/appbotx/appbotx.git",
+    "tag": "1.0.6"
+  },
+  "social_media_url": "https://twitter.com/stuartkhall",
+  "resources": "Classes/AppbotX.bundle",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "Classes/*.{h,m}",
+    "Classes/Models/*.{h,m}",
+    "Classes/Views/*.{h,m}",
+    "Classes/Controllers/*.{h,m}",
+    "Classes/Classes/*.{h,m}"
+  ]
+}

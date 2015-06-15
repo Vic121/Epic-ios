@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68013BD160712CB514C3FD56 /* libPods-EpicGlue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */; };
+		EA320A571AA8CB7C008A3F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A561AA8CB7C008A3F02 /* main.m */; };
+		EA320A5A1AA8CB7C008A3F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A591AA8CB7C008A3F02 /* AppDelegate.m */; };
+		EA320A5D1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA320A5B1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld */; };
+		EA320A631AA8CB7C008A3F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA320A611AA8CB7C008A3F02 /* Main.storyboard */; };
+		EA320A651AA8CB7C008A3F02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA320A641AA8CB7C008A3F02 /* Images.xcassets */; };
+		EA320A681AA8CB7C008A3F02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA320A661AA8CB7C008A3F02 /* LaunchScreen.xib */; };
+		EA320A741AA8CB7C008A3F02 /* EpicGlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A731AA8CB7C008A3F02 /* EpicGlueTests.m */; };
+		EA320A7F1AA8D5C7008A3F02 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA320A7E1AA8D5C7008A3F02 /* StoreKit.framework */; };
+		EA453FF71AB497F400C7248D /* Connector.m in Sources */ = {isa = PBXBuildFile; fileRef = EA453FF61AB497F400C7248D /* Connector.m */; };
+		EA453FFD1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA453FFC1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m */; };
+		EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA453FFF1AB4A2CF00C7248D /* SingleItemCollectionLayout.m */; };
+		EA544EC51AB4540000B22EF6 /* SubscriptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EC41AB4540000B22EF6 /* SubscriptionManager.m */; };
+		EA544EC81AB4540F00B22EF6 /* ItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EC71AB4540F00B22EF6 /* ItemManager.m */; };
+		EA544ECB1AB4542200B22EF6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ECA1AB4542200B22EF6 /* Model.m */; };
+		EA544ECE1AB4543000B22EF6 /* SubscriptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ECD1AB4543000B22EF6 /* SubscriptionModel.m */; };
+		EA544ED11AB4543900B22EF6 /* SourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED01AB4543900B22EF6 /* SourceModel.m */; };
+		EA544ED41AB4544100B22EF6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED31AB4544100B22EF6 /* UserModel.m */; };
+		EA544ED71AB4544900B22EF6 /* TokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED61AB4544900B22EF6 /* TokenModel.m */; };
+		EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED91AB4545000B22EF6 /* ItemModel.m */; };
+		EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */; };
+		EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EE21AB45F3600B22EF6 /* ItemCell.m */; };
+		EA7922551AB5665800A6AC94 /* ImageItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922541AB5665800A6AC94 /* ImageItemModel.m */; };
+		EA7922581AB5666300A6AC94 /* VideoItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922571AB5666300A6AC94 /* VideoItemModel.m */; };
+		EA79225B1AB5666B00A6AC94 /* TextItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79225A1AB5666B00A6AC94 /* TextItemModel.m */; };
+		EA79225E1AB5667C00A6AC94 /* TweetItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */; };
+		EA7922611AB5668B00A6AC94 /* LinkItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922601AB5668B00A6AC94 /* LinkItemModel.m */; };
+		EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922631AB566A100A6AC94 /* ItemModelFactory.m */; };
+		EAE591621ABD736A00B6E0DB /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE591611ABD736A00B6E0DB /* TitleCell.m */; };
+		EAE591651ABD737400B6E0DB /* TitleWithDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE591641ABD737400B6E0DB /* TitleWithDescriptionCell.m */; };
+		EAE591681ABD737C00B6E0DB /* ImageWithTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE591671ABD737C00B6E0DB /* ImageWithTitleCell.m */; };
+		EAE5916B1ABD738700B6E0DB /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE5916A1ABD738700B6E0DB /* ImageCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA320A6E1AA8CB7C008A3F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA320A491AA8CB7C008A3F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA320A501AA8CB7C008A3F02;
+			remoteInfo = EpicGlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig"; sourceTree = "<group>"; };
+		A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig"; sourceTree = "<group>"; };
+		EA320A511AA8CB7C008A3F02 /* EpicGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA320A551AA8CB7C008A3F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA320A561AA8CB7C008A3F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA320A581AA8CB7C008A3F02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA320A591AA8CB7C008A3F02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA320A5C1AA8CB7C008A3F02 /* EpicGlue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EpicGlue.xcdatamodel; sourceTree = "<group>"; };
+		EA320A621AA8CB7C008A3F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA320A641AA8CB7C008A3F02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA320A671AA8CB7C008A3F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA320A6D1AA8CB7C008A3F02 /* EpicGlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicGlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA320A721AA8CB7C008A3F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA320A731AA8CB7C008A3F02 /* EpicGlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpicGlueTests.m; sourceTree = "<group>"; };
+		EA320A7D1AA8D59F008A3F02 /* EpicGlue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EpicGlue.entitlements; sourceTree = "<group>"; };
+		EA320A7E1AA8D5C7008A3F02 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EA453FF51AB497F400C7248D /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
+		EA453FF61AB497F400C7248D /* Connector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.m; sourceTree = "<group>"; };
+		EA453FFB1AB4A2BF00C7248D /* MasonryItemCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryItemCollectionLayout.h; sourceTree = "<group>"; };
+		EA453FFC1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryItemCollectionLayout.m; sourceTree = "<group>"; };
+		EA453FFE1AB4A2CF00C7248D /* SingleItemCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleItemCollectionLayout.h; sourceTree = "<group>"; };
+		EA453FFF1AB4A2CF00C7248D /* SingleItemCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleItemCollectionLayout.m; sourceTree = "<group>"; };
+		EA544EC31AB4540000B22EF6 /* SubscriptionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionManager.h; sourceTree = "<group>"; };
+		EA544EC41AB4540000B22EF6 /* SubscriptionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionManager.m; sourceTree = "<group>"; };
+		EA544EC61AB4540F00B22EF6 /* ItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemManager.h; sourceTree = "<group>"; };
+		EA544EC71AB4540F00B22EF6 /* ItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemManager.m; sourceTree = "<group>"; };
+		EA544EC91AB4542200B22EF6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		EA544ECA1AB4542200B22EF6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		EA544ECC1AB4543000B22EF6 /* SubscriptionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionModel.h; sourceTree = "<group>"; };
+		EA544ECD1AB4543000B22EF6 /* SubscriptionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionModel.m; sourceTree = "<group>"; };
+		EA544ECF1AB4543900B22EF6 /* SourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceModel.h; sourceTree = "<group>"; };
+		EA544ED01AB4543900B22EF6 /* SourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceModel.m; sourceTree = "<group>"; };
+		EA544ED21AB4544100B22EF6 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		EA544ED31AB4544100B22EF6 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		EA544ED51AB4544900B22EF6 /* TokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenModel.h; sourceTree = "<group>"; };
+		EA544ED61AB4544900B22EF6 /* TokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenModel.m; sourceTree = "<group>"; };
+		EA544ED81AB4545000B22EF6 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		EA544ED91AB4545000B22EF6 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		EA544EDE1AB45F0600B22EF6 /* ItemCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewController.h; sourceTree = "<group>"; };
+		EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewController.m; sourceTree = "<group>"; };
+		EA544EE11AB45F3600B22EF6 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		EA544EE21AB45F3600B22EF6 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		EA7922531AB5665800A6AC94 /* ImageItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageItemModel.h; sourceTree = "<group>"; };
+		EA7922541AB5665800A6AC94 /* ImageItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageItemModel.m; sourceTree = "<group>"; };
+		EA7922561AB5666300A6AC94 /* VideoItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemModel.h; sourceTree = "<group>"; };
+		EA7922571AB5666300A6AC94 /* VideoItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemModel.m; sourceTree = "<group>"; };
+		EA7922591AB5666B00A6AC94 /* TextItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextItemModel.h; sourceTree = "<group>"; };
+		EA79225A1AB5666B00A6AC94 /* TextItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextItemModel.m; sourceTree = "<group>"; };
+		EA79225C1AB5667C00A6AC94 /* TweetItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetItemModel.h; sourceTree = "<group>"; };
+		EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetItemModel.m; sourceTree = "<group>"; };
+		EA79225F1AB5668B00A6AC94 /* LinkItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkItemModel.h; sourceTree = "<group>"; };
+		EA7922601AB5668B00A6AC94 /* LinkItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkItemModel.m; sourceTree = "<group>"; };
+		EA7922621AB566A100A6AC94 /* ItemModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModelFactory.h; sourceTree = "<group>"; };
+		EA7922631AB566A100A6AC94 /* ItemModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModelFactory.m; sourceTree = "<group>"; };
+		EAE591601ABD736A00B6E0DB /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		EAE591611ABD736A00B6E0DB /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
+		EAE591631ABD737400B6E0DB /* TitleWithDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleWithDescriptionCell.h; sourceTree = "<group>"; };
+		EAE591641ABD737400B6E0DB /* TitleWithDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleWithDescriptionCell.m; sourceTree = "<group>"; };
+		EAE591661ABD737C00B6E0DB /* ImageWithTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWithTitleCell.h; sourceTree = "<group>"; };
+		EAE591671ABD737C00B6E0DB /* ImageWithTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWithTitleCell.m; sourceTree = "<group>"; };
+		EAE591691ABD738700B6E0DB /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		EAE5916A1ABD738700B6E0DB /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA320A4E1AA8CB7C008A3F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68013BD160712CB514C3FD56 /* libPods-EpicGlue.a in Frameworks */,
+				EA320A7F1AA8D5C7008A3F02 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA320A6A1AA8CB7C008A3F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59836F6A299472F895ACCEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */,
+				75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFC933D6E95B4C148B30D5A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA320A7E1AA8D5C7008A3F02 /* StoreKit.framework */,
+				A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA320A481AA8CB7C008A3F02 = {
+			isa = PBXGroup;
+			children = (
+				EA320A531AA8CB7C008A3F02 /* EpicGlue */,
+				EA320A701AA8CB7C008A3F02 /* EpicGlueTests */,
+				EA320A521AA8CB7C008A3F02 /* Products */,
+				59836F6A299472F895ACCEA4 /* Pods */,
+				DFC933D6E95B4C148B30D5A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA320A521AA8CB7C008A3F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA320A511AA8CB7C008A3F02 /* EpicGlue.app */,
+				EA320A6D1AA8CB7C008A3F02 /* EpicGlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA320A531AA8CB7C008A3F02 /* EpicGlue */ = {
+			isa = PBXGroup;
+			children = (
+				EA544EDD1AB45ED600B22EF6 /* Items */,
+				EA544EC11AB453A400B22EF6 /* Data */,
+				EA544EC01AB4130F00B22EF6 /* Navigation */,
+				EA320A7D1AA8D59F008A3F02 /* EpicGlue.entitlements */,
+				EA320A581AA8CB7C008A3F02 /* AppDelegate.h */,
+				EA320A591AA8CB7C008A3F02 /* AppDelegate.m */,
+				EA320A611AA8CB7C008A3F02 /* Main.storyboard */,
+				EA320A641AA8CB7C008A3F02 /* Images.xcassets */,
+				EA320A661AA8CB7C008A3F02 /* LaunchScreen.xib */,
+				EA320A5B1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld */,
+				EA320A541AA8CB7C008A3F02 /* Supporting Files */,
+			);
+			path = EpicGlue;
+			sourceTree = "<group>";
+		};
+		EA320A541AA8CB7C008A3F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA320A551AA8CB7C008A3F02 /* Info.plist */,
+				EA320A561AA8CB7C008A3F02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA320A701AA8CB7C008A3F02 /* EpicGlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA320A731AA8CB7C008A3F02 /* EpicGlueTests.m */,
+				EA320A711AA8CB7C008A3F02 /* Supporting Files */,
+			);
+			path = EpicGlueTests;
+			sourceTree = "<group>";
+		};
+		EA320A711AA8CB7C008A3F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA320A721AA8CB7C008A3F02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA544EC01AB4130F00B22EF6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EA544EDC1AB4546400B22EF6 /* Subscription */,
+				EA544EDB1AB4545F00B22EF6 /* Item */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		EA544EC11AB453A400B22EF6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA544EC21AB453C800B22EF6 /* Model */,
+				EA544EC31AB4540000B22EF6 /* SubscriptionManager.h */,
+				EA544EC41AB4540000B22EF6 /* SubscriptionManager.m */,
+				EA453FF51AB497F400C7248D /* Connector.h */,
+				EA453FF61AB497F400C7248D /* Connector.m */,
+				EA544EC61AB4540F00B22EF6 /* ItemManager.h */,
+				EA544EC71AB4540F00B22EF6 /* ItemManager.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		EA544EC21AB453C800B22EF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA7922521AB5663200A6AC94 /* ItemModel */,
+				EA544EC91AB4542200B22EF6 /* Model.h */,
+				EA544ECA1AB4542200B22EF6 /* Model.m */,
+				EA544ECC1AB4543000B22EF6 /* SubscriptionModel.h */,
+				EA544ECD1AB4543000B22EF6 /* SubscriptionModel.m */,
+				EA544ECF1AB4543900B22EF6 /* SourceModel.h */,
+				EA544ED01AB4543900B22EF6 /* SourceModel.m */,
+				EA544ED21AB4544100B22EF6 /* UserModel.h */,
+				EA544ED31AB4544100B22EF6 /* UserModel.m */,
+				EA544ED51AB4544900B22EF6 /* TokenModel.h */,
+				EA544ED61AB4544900B22EF6 /* TokenModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA544EDB1AB4545F00B22EF6 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		EA544EDC1AB4546400B22EF6 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Subscription;
+			sourceTree = "<group>";
+		};
+		EA544EDD1AB45ED600B22EF6 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				EA544EF11AB45FD000B22EF6 /* Layouts */,
+				EA544EF01AB45FC800B22EF6 /* Cells */,
+				EA544EDE1AB45F0600B22EF6 /* ItemCollectionViewController.h */,
+				EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		EA544EF01AB45FC800B22EF6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EA544EE11AB45F3600B22EF6 /* ItemCell.h */,
+				EA544EE21AB45F3600B22EF6 /* ItemCell.m */,
+				EAE591601ABD736A00B6E0DB /* TitleCell.h */,
+				EAE591611ABD736A00B6E0DB /* TitleCell.m */,
+				EAE591631ABD737400B6E0DB /* TitleWithDescriptionCell.h */,
+				EAE591641ABD737400B6E0DB /* TitleWithDescriptionCell.m */,
+				EAE591661ABD737C00B6E0DB /* ImageWithTitleCell.h */,
+				EAE591671ABD737C00B6E0DB /* ImageWithTitleCell.m */,
+				EAE591691ABD738700B6E0DB /* ImageCell.h */,
+				EAE5916A1ABD738700B6E0DB /* ImageCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EA544EF11AB45FD000B22EF6 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				EA453FFB1AB4A2BF00C7248D /* MasonryItemCollectionLayout.h */,
+				EA453FFC1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m */,
+				EA453FFE1AB4A2CF00C7248D /* SingleItemCollectionLayout.h */,
+				EA453FFF1AB4A2CF00C7248D /* SingleItemCollectionLayout.m */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		EA7922521AB5663200A6AC94 /* ItemModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA544ED81AB4545000B22EF6 /* ItemModel.h */,
+				EA544ED91AB4545000B22EF6 /* ItemModel.m */,
+				EA7922531AB5665800A6AC94 /* ImageItemModel.h */,
+				EA7922541AB5665800A6AC94 /* ImageItemModel.m */,
+				EA7922561AB5666300A6AC94 /* VideoItemModel.h */,
+				EA7922571AB5666300A6AC94 /* VideoItemModel.m */,
+				EA7922591AB5666B00A6AC94 /* TextItemModel.h */,
+				EA79225A1AB5666B00A6AC94 /* TextItemModel.m */,
+				EA79225C1AB5667C00A6AC94 /* TweetItemModel.h */,
+				EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */,
+				EA79225F1AB5668B00A6AC94 /* LinkItemModel.h */,
+				EA7922601AB5668B00A6AC94 /* LinkItemModel.m */,
+				EA7922621AB566A100A6AC94 /* ItemModelFactory.h */,
+				EA7922631AB566A100A6AC94 /* ItemModelFactory.m */,
+			);
+			name = ItemModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA320A501AA8CB7C008A3F02 /* EpicGlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA320A771AA8CB7C008A3F02 /* Build configuration list for PBXNativeTarget "EpicGlue" */;
+			buildPhases = (
+				0386BAC9E8EC59A8001CF4C8 /* Check Pods Manifest.lock */,
+				EA320A4D1AA8CB7C008A3F02 /* Sources */,
+				EA320A4E1AA8CB7C008A3F02 /* Frameworks */,
+				EA320A4F1AA8CB7C008A3F02 /* Resources */,
+				20204CFFCFD54BA8CD05271E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicGlue;
+			productName = EpicGlue;
+			productReference = EA320A511AA8CB7C008A3F02 /* EpicGlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA320A6C1AA8CB7C008A3F02 /* EpicGlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA320A7A1AA8CB7C008A3F02 /* Build configuration list for PBXNativeTarget "EpicGlueTests" */;
+			buildPhases = (
+				EA320A691AA8CB7C008A3F02 /* Sources */,
+				EA320A6A1AA8CB7C008A3F02 /* Frameworks */,
+				EA320A6B1AA8CB7C008A3F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA320A6F1AA8CB7C008A3F02 /* PBXTargetDependency */,
+			);
+			name = EpicGlueTests;
+			productName = EpicGlueTests;
+			productReference = EA320A6D1AA8CB7C008A3F02 /* EpicGlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA320A491AA8CB7C008A3F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Only Epic Apps";
+				TargetAttributes = {
+					EA320A501AA8CB7C008A3F02 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = J7L8NRR4XP;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					EA320A6C1AA8CB7C008A3F02 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EA320A501AA8CB7C008A3F02;
+					};
+				};
+			};
+			buildConfigurationList = EA320A4C1AA8CB7C008A3F02 /* Build configuration list for PBXProject "EpicGlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA320A481AA8CB7C008A3F02;
+			productRefGroup = EA320A521AA8CB7C008A3F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA320A501AA8CB7C008A3F02 /* EpicGlue */,
+				EA320A6C1AA8CB7C008A3F02 /* EpicGlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA320A4F1AA8CB7C008A3F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA320A631AA8CB7C008A3F02 /* Main.storyboard in Resources */,
+				EA320A681AA8CB7C008A3F02 /* LaunchScreen.xib in Resources */,
+				EA320A651AA8CB7C008A3F02 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA320A6B1AA8CB7C008A3F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0386BAC9E8EC59A8001CF4C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20204CFFCFD54BA8CD05271E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA320A4D1AA8CB7C008A3F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7922581AB5666300A6AC94 /* VideoItemModel.m in Sources */,
+				EA544EC51AB4540000B22EF6 /* SubscriptionManager.m in Sources */,
+				EA7922611AB5668B00A6AC94 /* LinkItemModel.m in Sources */,
+				EA79225B1AB5666B00A6AC94 /* TextItemModel.m in Sources */,
+				EA453FF71AB497F400C7248D /* Connector.m in Sources */,
+				EA79225E1AB5667C00A6AC94 /* TweetItemModel.m in Sources */,
+				EA544ED71AB4544900B22EF6 /* TokenModel.m in Sources */,
+				EAE591621ABD736A00B6E0DB /* TitleCell.m in Sources */,
+				EA320A5D1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld in Sources */,
+				EA320A5A1AA8CB7C008A3F02 /* AppDelegate.m in Sources */,
+				EA544ED11AB4543900B22EF6 /* SourceModel.m in Sources */,
+				EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */,
+				EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */,
+				EAE591681ABD737C00B6E0DB /* ImageWithTitleCell.m in Sources */,
+				EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */,
+				EA7922551AB5665800A6AC94 /* ImageItemModel.m in Sources */,
+				EA544ECE1AB4543000B22EF6 /* SubscriptionModel.m in Sources */,
+				EAE5916B1ABD738700B6E0DB /* ImageCell.m in Sources */,
+				EA453FFD1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m in Sources */,
+				EA544ED41AB4544100B22EF6 /* UserModel.m in Sources */,
+				EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */,
+				EA544ECB1AB4542200B22EF6 /* Model.m in Sources */,
+				EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */,
+				EA544EC81AB4540F00B22EF6 /* ItemManager.m in Sources */,
+				EA320A571AA8CB7C008A3F02 /* main.m in Sources */,
+				EAE591651ABD737400B6E0DB /* TitleWithDescriptionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA320A691AA8CB7C008A3F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA320A741AA8CB7C008A3F02 /* EpicGlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA320A6F1AA8CB7C008A3F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA320A501AA8CB7C008A3F02 /* EpicGlue */;
+			targetProxy = EA320A6E1AA8CB7C008A3F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA320A611AA8CB7C008A3F02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA320A621AA8CB7C008A3F02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA320A661AA8CB7C008A3F02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA320A671AA8CB7C008A3F02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA320A751AA8CB7C008A3F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA320A761AA8CB7C008A3F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA320A781AA8CB7C008A3F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EpicGlue/EpicGlue.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EpicGlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EA320A791AA8CB7C008A3F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EpicGlue/EpicGlue.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EpicGlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EA320A7B1AA8CB7C008A3F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpicGlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/EpicGlue";
+			};
+			name = Debug;
+		};
+		EA320A7C1AA8CB7C008A3F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EpicGlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/EpicGlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA320A4C1AA8CB7C008A3F02 /* Build configuration list for PBXProject "EpicGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA320A751AA8CB7C008A3F02 /* Debug */,
+				EA320A761AA8CB7C008A3F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA320A771AA8CB7C008A3F02 /* Build configuration list for PBXNativeTarget "EpicGlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA320A781AA8CB7C008A3F02 /* Debug */,
+				EA320A791AA8CB7C008A3F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA320A7A1AA8CB7C008A3F02 /* Build configuration list for PBXNativeTarget "EpicGlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA320A7B1AA8CB7C008A3F02 /* Debug */,
+				EA320A7C1AA8CB7C008A3F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA320A5B1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA320A5C1AA8CB7C008A3F02 /* EpicGlue.xcdatamodel */,
+			);
+			currentVersion = EA320A5C1AA8CB7C008A3F02 /* EpicGlue.xcdatamodel */;
+			path = EpicGlue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA320A491AA8CB7C008A3F02 /* Project object */;
+}
