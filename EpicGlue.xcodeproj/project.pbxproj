@@ -24,11 +24,6 @@
 		EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED91AB4545000B22EF6 /* ItemModel.m */; };
 		EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */; };
 		EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EE21AB45F3600B22EF6 /* ItemCell.m */; };
-		EA7922551AB5665800A6AC94 /* ImageItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922541AB5665800A6AC94 /* ImageItemModel.m */; };
-		EA7922581AB5666300A6AC94 /* VideoItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922571AB5666300A6AC94 /* VideoItemModel.m */; };
-		EA79225B1AB5666B00A6AC94 /* TextItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79225A1AB5666B00A6AC94 /* TextItemModel.m */; };
-		EA79225E1AB5667C00A6AC94 /* TweetItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */; };
-		EA7922611AB5668B00A6AC94 /* LinkItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922601AB5668B00A6AC94 /* LinkItemModel.m */; };
 		EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922631AB566A100A6AC94 /* ItemModelFactory.m */; };
 		EAE591621ABD736A00B6E0DB /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE591611ABD736A00B6E0DB /* TitleCell.m */; };
 		EAE591651ABD737400B6E0DB /* TitleWithDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE591641ABD737400B6E0DB /* TitleWithDescriptionCell.m */; };
@@ -80,16 +75,6 @@
 		EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewController.m; sourceTree = "<group>"; };
 		EA544EE11AB45F3600B22EF6 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		EA544EE21AB45F3600B22EF6 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
-		EA7922531AB5665800A6AC94 /* ImageItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageItemModel.h; sourceTree = "<group>"; };
-		EA7922541AB5665800A6AC94 /* ImageItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageItemModel.m; sourceTree = "<group>"; };
-		EA7922561AB5666300A6AC94 /* VideoItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemModel.h; sourceTree = "<group>"; };
-		EA7922571AB5666300A6AC94 /* VideoItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemModel.m; sourceTree = "<group>"; };
-		EA7922591AB5666B00A6AC94 /* TextItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextItemModel.h; sourceTree = "<group>"; };
-		EA79225A1AB5666B00A6AC94 /* TextItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextItemModel.m; sourceTree = "<group>"; };
-		EA79225C1AB5667C00A6AC94 /* TweetItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetItemModel.h; sourceTree = "<group>"; };
-		EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetItemModel.m; sourceTree = "<group>"; };
-		EA79225F1AB5668B00A6AC94 /* LinkItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkItemModel.h; sourceTree = "<group>"; };
-		EA7922601AB5668B00A6AC94 /* LinkItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkItemModel.m; sourceTree = "<group>"; };
 		EA7922621AB566A100A6AC94 /* ItemModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModelFactory.h; sourceTree = "<group>"; };
 		EA7922631AB566A100A6AC94 /* ItemModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModelFactory.m; sourceTree = "<group>"; };
 		EAE591601ABD736A00B6E0DB /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
@@ -293,16 +278,6 @@
 			children = (
 				EA544ED81AB4545000B22EF6 /* ItemModel.h */,
 				EA544ED91AB4545000B22EF6 /* ItemModel.m */,
-				EA7922531AB5665800A6AC94 /* ImageItemModel.h */,
-				EA7922541AB5665800A6AC94 /* ImageItemModel.m */,
-				EA7922561AB5666300A6AC94 /* VideoItemModel.h */,
-				EA7922571AB5666300A6AC94 /* VideoItemModel.m */,
-				EA7922591AB5666B00A6AC94 /* TextItemModel.h */,
-				EA79225A1AB5666B00A6AC94 /* TextItemModel.m */,
-				EA79225C1AB5667C00A6AC94 /* TweetItemModel.h */,
-				EA79225D1AB5667C00A6AC94 /* TweetItemModel.m */,
-				EA79225F1AB5668B00A6AC94 /* LinkItemModel.h */,
-				EA7922601AB5668B00A6AC94 /* LinkItemModel.m */,
 				EA7922621AB566A100A6AC94 /* ItemModelFactory.h */,
 				EA7922631AB566A100A6AC94 /* ItemModelFactory.m */,
 			);
@@ -453,11 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7922581AB5666300A6AC94 /* VideoItemModel.m in Sources */,
-				EA7922611AB5668B00A6AC94 /* LinkItemModel.m in Sources */,
-				EA79225B1AB5666B00A6AC94 /* TextItemModel.m in Sources */,
 				EA453FF71AB497F400C7248D /* Connector.m in Sources */,
-				EA79225E1AB5667C00A6AC94 /* TweetItemModel.m in Sources */,
 				EAE591621ABD736A00B6E0DB /* TitleCell.m in Sources */,
 				EA320A5D1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld in Sources */,
 				EA320A5A1AA8CB7C008A3F02 /* AppDelegate.m in Sources */,
@@ -465,7 +436,6 @@
 				EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */,
 				EAE591681ABD737C00B6E0DB /* ImageWithTitleCell.m in Sources */,
 				EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */,
-				EA7922551AB5665800A6AC94 /* ImageItemModel.m in Sources */,
 				EAE5916B1ABD738700B6E0DB /* ImageCell.m in Sources */,
 				EA453FFD1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m in Sources */,
 				EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */,

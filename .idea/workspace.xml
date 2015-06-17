@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="pods and stuff">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SourceModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SourceModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SubscriptionManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SubscriptionManager.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SubscriptionModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/SubscriptionModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TokenModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TokenModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/UserModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/UserModel.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" afterPath="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" />
+    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Removed classes without content">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ImageItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ImageItemModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/LinkItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TextItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TextItemModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TweetItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TweetItemModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoItemModel.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,34 +49,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemModelFactory.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCollectionViewController.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemCollectionViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemModelFactory.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemModelFactory.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="810">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="e#142#170#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="432">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,16 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkItemModel.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/LinkItemModel.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -132,6 +111,7 @@
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/EpicGlue/Connector.m" />
         <option value="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" />
       </list>
     </option>
   </component>
@@ -457,19 +437,26 @@
       <option name="project" value="LOCAL" />
       <updated>1434388227009</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed classes without content">
+      <created>1434520030067</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1434520030067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1233" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35328466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25412542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -479,7 +466,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -525,7 +511,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="pods and stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="pods and stuff" />
+    <MESSAGE value="Removed classes without content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed classes without content" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -535,13 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -813,40 +793,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#135#156#0" expanded="true" />
+            <element signature="e#135#156#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="720">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#142#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/LinkItemModel.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModel.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -878,7 +832,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="657">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
@@ -887,7 +841,23 @@
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModel.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="432">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
