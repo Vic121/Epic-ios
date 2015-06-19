@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Removed classes without content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/DateParser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/DateParser.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Item.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Item.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/JSON.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/JSON.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4Parser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamParserState.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamTokeniser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamWriterState.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4Writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4Parser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamTokeniser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4Writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SBJson.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Parser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Parser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParserState.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParserState.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamTokeniser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamTokeniser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriterState.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriterState.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Writer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Writer.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson.xcconfig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" />
+    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Progress, mostly code cleanup + shell classes">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/ABX.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/ABX.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXApiClient.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXApiClient.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXApiClient.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXApiClient.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXAppStore.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXAppStore.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXAppStore.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXAppStore.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXAttachment.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXAttachment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXAttachment.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXAttachment.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXBaseListViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXBaseListViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXBaseListViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXBaseListViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXFAQTableViewCell.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXFAQTableViewCell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXFAQTableViewCell.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXFAQTableViewCell.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQsViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQsViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQsViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFAQsViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXFaq.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXFaq.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXFaq.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXFaq.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFeedbackViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFeedbackViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFeedbackViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXFeedbackViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXIssue.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXIssue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXIssue.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXIssue.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXKeychain.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXKeychain.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXKeychain.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/ABXKeychain.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXModel.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXModel.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXModel.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXModel.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNavigationController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNavigationController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNavigationController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNavigationController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXNotification.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXNotification.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXNotification.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXNotification.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationTableViewCell.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationTableViewCell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationTableViewCell.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationTableViewCell.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationView.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationView.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXNotificationView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNotificationsViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNotificationsViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNotificationsViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXNotificationsViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXPromptView.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXPromptView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXPromptView.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXPromptView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXTextView.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXTextView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXTextView.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXTextView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXVersion.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXVersion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXVersion.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Models/ABXVersion.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionNotificationView.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionNotificationView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionNotificationView.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionNotificationView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionTableViewCell.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionTableViewCell.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionTableViewCell.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Views/ABXVersionTableViewCell.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXVersionsViewController.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXVersionsViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXVersionsViewController.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Controllers/ABXVersionsViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/LICENSE" afterPath="$PROJECT_DIR$/Pods/AppbotX/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/en.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/en.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/es.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/es.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/fr.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/fr.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/ja.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/ja.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/zh-hant.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/zh-hant.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/zh.lproj/Localizable.strings" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/AppbotX.bundle/zh.lproj/Localizable.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXNSNullAsNull.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXNSNullAsNull.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXNSNullAsNull.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXNSNullAsNull.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXQueryString.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXQueryString.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXQueryString.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSDictionary+ABXQueryString.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXLocalized.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXLocalized.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXLocalized.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXLocalized.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXSizing.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXSizing.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXSizing.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXSizing.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXURLEncoding.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXURLEncoding.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXURLEncoding.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/NSString+ABXURLEncoding.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-dummy.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/README.md" afterPath="$PROJECT_DIR$/Pods/AppbotX/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/UIViewController+ABXScreenshot.h" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/UIViewController+ABXScreenshot.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/UIViewController+ABXScreenshot.m" afterPath="$PROJECT_DIR$/Pods/AppbotX/Classes/Classes/UIViewController+ABXScreenshot.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,17 +188,17 @@
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemModelFactory.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemModelFactory.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2#0" expanded="false" />
               </folding>
@@ -206,10 +206,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemList.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItemList.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2#0" expanded="false" />
@@ -591,7 +591,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434520183743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Progress, mostly code cleanup + shell classes">
+      <created>1434687327736</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1434687327736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -610,7 +616,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25356844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25356844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937028" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -660,7 +666,8 @@
     </option>
     <MESSAGE value="pods and stuff" />
     <MESSAGE value="Removed classes without content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed classes without content" />
+    <MESSAGE value="Progress, mostly code cleanup + shell classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress, mostly code cleanup + shell classes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -672,90 +679,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3165">
@@ -773,62 +696,6 @@
         <state vertical-scroll-proportion="-0.9191176" vertical-offset="625" max-vertical-offset="1305">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -965,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43378997" vertical-offset="0" max-vertical-offset="657">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -995,16 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
           </folding>
@@ -1040,15 +889,33 @@
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5022831" vertical-offset="0" max-vertical-offset="657">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
           </folding>
