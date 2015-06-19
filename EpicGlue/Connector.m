@@ -9,18 +9,19 @@
 #import "Connector.h"
 
 #import "AFNetworking.h"
+#import "JSON.h"
 
 @implementation Connector
 
 - (NSDictionary *)sendGET:(NSString *)url
-                  success:(void (^)(NSDictionary *json))success
+                  success:(void (^)(JSON *json))success
                   failure:(void (^)(NSError *error))failure
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     [manager GET:url parameters:nil success:^(AFHTTPRequestOperation *operation, id json) {
         NSLog(@"JSON: %@", json);
-        success(json);
+        success([JSON fromDict:json]);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
         failure(error);
@@ -30,15 +31,15 @@
 }
 
 - (NSDictionary *)sendPOST:(NSString *)url
-               withPayload:(NSDictionary *)payload
-                   success:(void (^)(NSDictionary *json))success
+               withPayload:(JSON *)payload
+                   success:(void (^)(JSON *json))success
                    failure:(void (^)(NSError *error))failure
 {
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     [manager POST:url parameters:payload success:^(AFHTTPRequestOperation *operation, id json) {
         NSLog(@"JSON: %@", json);
-        success(json);
+        success([JSON fromDict:json]);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
         failure(error);

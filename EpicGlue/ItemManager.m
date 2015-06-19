@@ -14,6 +14,7 @@
 
 @synthesize items;
 
+// TODO: everything to scrap
 - (void)fetchItems:(void (^)(void))onSuccess
            onFailure:(void (^)(void))onFailure
 {
@@ -24,12 +25,11 @@
         
         for (NSDictionary *json_item in json)
         {
-            ItemModel *item = [ItemModelFactory modelFromJSON:json_item];
+            Item *item = [ItemModelFactory modelFromJSON:json_item];
             
             [models addObject:item];
         }
         
-//        items = [items arrayByAddingObjectsFromArray:models];
         items = [NSArray arrayWithArray:models];
         
         NSLog(@"%d items", items.count);
