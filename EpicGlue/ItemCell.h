@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ItemModel.h"
+#import "Item.h"
 
 #define WIDTH 400
 #define HEAD_HEIGHT 50
@@ -16,7 +16,7 @@
 
 @interface ItemCell : UICollectionViewCell
 
-@property (nonatomic) ItemModel *model;
+@property(nonatomic) Item *item;
 
 - (UIView *)getHeader;
 - (UIView *)getContent;

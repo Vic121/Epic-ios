@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62DD21CABAD9C563CE2D8D24 /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C8687E81475692C00D0 /* DateParser.m */; };
+		62DD2546520F11CF65670AAD /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD269137479F5DC486E92B /* Item.m */; };
+		62DD259ED6A0188875EB9F37 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD249AF402EFB4A1CD9CEE /* JSON.m */; };
+		62DD25ED568AFEEA3D031840 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CCF570015CF07048B7A /* ItemList.m */; };
+		62DD27B603D2B3717E65AD75 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CCF570015CF07048B7A /* ItemList.m */; };
+		62DD28CC68E84CD7B1040AE1 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2530ABAB29F841F0111E /* Location.m */; };
+		62DD294ECA8F072B0BF07A73 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2530ABAB29F841F0111E /* Location.m */; };
+		62DD297145756A7593CF409D /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD269137479F5DC486E92B /* Item.m */; };
+		62DD2B688292F3533B0F36B2 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD249AF402EFB4A1CD9CEE /* JSON.m */; };
+		62DD2CA93FF59728DAF0C69C /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C8687E81475692C00D0 /* DateParser.m */; };
 		68013BD160712CB514C3FD56 /* libPods-EpicGlue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */; };
 		EA320A571AA8CB7C008A3F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A561AA8CB7C008A3F02 /* main.m */; };
 		EA320A5A1AA8CB7C008A3F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A591AA8CB7C008A3F02 /* AppDelegate.m */; };
@@ -21,7 +31,6 @@
 		EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA453FFF1AB4A2CF00C7248D /* SingleItemCollectionLayout.m */; };
 		EA544EC81AB4540F00B22EF6 /* ItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EC71AB4540F00B22EF6 /* ItemManager.m */; };
 		EA544ECB1AB4542200B22EF6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ECA1AB4542200B22EF6 /* Model.m */; };
-		EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544ED91AB4545000B22EF6 /* ItemModel.m */; };
 		EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */; };
 		EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EE21AB45F3600B22EF6 /* ItemCell.m */; };
 		EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7922631AB566A100A6AC94 /* ItemModelFactory.m */; };
@@ -42,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62DD249AF402EFB4A1CD9CEE /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
+		62DD2530ABAB29F841F0111E /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		62DD269137479F5DC486E92B /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		62DD26AC1B9AE35AAF9D2D39 /* DateParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateParser.h; sourceTree = "<group>"; };
+		62DD2A941123347616850412 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		62DD2A94735506FBCACE3D48 /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
+		62DD2B65E99ACF196A530CE5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		62DD2C8687E81475692C00D0 /* DateParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateParser.m; sourceTree = "<group>"; };
+		62DD2CCF570015CF07048B7A /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
+		62DD2F1969792E00B56E4255 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig"; sourceTree = "<group>"; };
 		A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,8 +88,6 @@
 		EA544EC71AB4540F00B22EF6 /* ItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemManager.m; sourceTree = "<group>"; };
 		EA544EC91AB4542200B22EF6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		EA544ECA1AB4542200B22EF6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		EA544ED81AB4545000B22EF6 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
-		EA544ED91AB4545000B22EF6 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
 		EA544EDE1AB45F0600B22EF6 /* ItemCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewController.h; sourceTree = "<group>"; };
 		EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewController.m; sourceTree = "<group>"; };
 		EA544EE11AB45F3600B22EF6 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
@@ -206,6 +223,10 @@
 				EA453FF61AB497F400C7248D /* Connector.m */,
 				EA544EC61AB4540F00B22EF6 /* ItemManager.h */,
 				EA544EC71AB4540F00B22EF6 /* ItemManager.m */,
+				62DD249AF402EFB4A1CD9CEE /* JSON.m */,
+				62DD2B65E99ACF196A530CE5 /* JSON.h */,
+				62DD2C8687E81475692C00D0 /* DateParser.m */,
+				62DD26AC1B9AE35AAF9D2D39 /* DateParser.h */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -216,6 +237,12 @@
 				EA7922521AB5663200A6AC94 /* ItemModel */,
 				EA544EC91AB4542200B22EF6 /* Model.h */,
 				EA544ECA1AB4542200B22EF6 /* Model.m */,
+				62DD2A941123347616850412 /* Item.h */,
+				62DD269137479F5DC486E92B /* Item.m */,
+				62DD2CCF570015CF07048B7A /* ItemList.m */,
+				62DD2A94735506FBCACE3D48 /* ItemList.h */,
+				62DD2530ABAB29F841F0111E /* Location.m */,
+				62DD2F1969792E00B56E4255 /* Location.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -276,8 +303,6 @@
 		EA7922521AB5663200A6AC94 /* ItemModel */ = {
 			isa = PBXGroup;
 			children = (
-				EA544ED81AB4545000B22EF6 /* ItemModel.h */,
-				EA544ED91AB4545000B22EF6 /* ItemModel.m */,
 				EA7922621AB566A100A6AC94 /* ItemModelFactory.h */,
 				EA7922631AB566A100A6AC94 /* ItemModelFactory.m */,
 			);
@@ -435,7 +460,6 @@
 				EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */,
 				EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */,
 				EAE591681ABD737C00B6E0DB /* ImageWithTitleCell.m in Sources */,
-				EA544EDA1AB4545000B22EF6 /* ItemModel.m in Sources */,
 				EAE5916B1ABD738700B6E0DB /* ImageCell.m in Sources */,
 				EA453FFD1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m in Sources */,
 				EA7922641AB566A100A6AC94 /* ItemModelFactory.m in Sources */,
@@ -444,6 +468,11 @@
 				EA544EC81AB4540F00B22EF6 /* ItemManager.m in Sources */,
 				EA320A571AA8CB7C008A3F02 /* main.m in Sources */,
 				EAE591651ABD737400B6E0DB /* TitleWithDescriptionCell.m in Sources */,
+				62DD259ED6A0188875EB9F37 /* JSON.m in Sources */,
+				62DD2546520F11CF65670AAD /* Item.m in Sources */,
+				62DD25ED568AFEEA3D031840 /* ItemList.m in Sources */,
+				62DD294ECA8F072B0BF07A73 /* Location.m in Sources */,
+				62DD2CA93FF59728DAF0C69C /* DateParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +481,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA320A741AA8CB7C008A3F02 /* EpicGlueTests.m in Sources */,
+				62DD2B688292F3533B0F36B2 /* JSON.m in Sources */,
+				62DD297145756A7593CF409D /* Item.m in Sources */,
+				62DD27B603D2B3717E65AD75 /* ItemList.m in Sources */,
+				62DD28CC68E84CD7B1040AE1 /* Location.m in Sources */,
+				62DD21CABAD9C563CE2D8D24 /* DateParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -590,6 +625,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

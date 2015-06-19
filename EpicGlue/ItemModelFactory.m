@@ -7,15 +7,18 @@
 //
 
 #import "ItemModelFactory.h"
+#import "Item.h"
+#import "JSON.h"
 
 @implementation ItemModelFactory
 
-+(ItemModel *)modelFromJSON:(NSDictionary *)json;
++ (Item *)modelFromJSON:(JSON *)json;
 {
     NSString *mediaType = [json[@"media_type"] string];
     
     NSLog(@"MediaType %@ not recognized", mediaType);
-    return [ItemModel fromJSON:json];
+
+    return [Item fromJSON:json];
 }
 
 @end

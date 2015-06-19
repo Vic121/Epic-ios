@@ -37,12 +37,13 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - DateTools (1.5.0)
   - ECSlidingViewController (2.0.3)
+  - ISO8601DateFormatter (0.7)
   - Mantle (2.0.2):
     - Mantle/extobjc (= 2.0.2)
   - Mantle/extobjc (2.0.2)
   - MBProgressHUD (0.9.1)
-  - SBJson (4.0.1)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
@@ -52,10 +53,11 @@ DEPENDENCIES:
   - AppbotX (from `https://github.com/appbotx/appbotx.git`)
   - ARCollectionViewMasonryLayout (~> 2.1.2)
   - BlocksKit (~> 2.2.5)
+  - DateTools
   - ECSlidingViewController (~> 2.0.3)
+  - ISO8601DateFormatter
   - Mantle (~> 2.0.2)
   - MBProgressHUD (~> 0.9)
-  - SBJson (~> 4.0.0)
   - SDWebImage (~> 3.7.2)
 
 EXTERNAL SOURCES:
@@ -72,10 +74,11 @@ SPEC CHECKSUMS:
   AppbotX: 57bbefff2b359c9d0407a0d90588fd91cff45027
   ARCollectionViewMasonryLayout: 776730bdedd0c7570a5e904c370e4e120f98ea62
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DateTools: b93a2c2017747329c6077c7d7e8a75106e23d0d7
   ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  SBJson: 68f16f446bd6047dc3dd1ec4919a468c2cd7fedd
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
 COCOAPODS: 0.37.2

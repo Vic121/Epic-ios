@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ItemModel.h"
+@class Item;
+@class JSON;
 
 @interface ItemModelFactory : NSObject
 
-+(ItemModel *)modelFromJSON:(NSDictionary *)json;
++ (Item *)modelFromJSON:(JSON *)json;
 
 @end

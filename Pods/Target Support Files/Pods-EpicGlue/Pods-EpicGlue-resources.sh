@@ -59,9 +59,11 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "AppbotX/Classes/AppbotX.bundle"
+  install_resource "DateTools/DateTools/DateTools.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "AppbotX/Classes/AppbotX.bundle"
+  install_resource "DateTools/DateTools/DateTools.bundle"
 fi
 
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

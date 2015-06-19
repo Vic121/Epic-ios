@@ -2,20 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Removed classes without content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ImageItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ImageItemModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/LinkItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TextItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TextItemModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TweetItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TweetItemModel.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoItemModel.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoItemModel.m" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/DateParser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/DateParser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Item.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Item.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/JSON.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/JSON.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4Parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamParser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamParserState.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamTokeniser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamWriter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4StreamWriterState.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/SBJson/SBJson4Writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4Parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamParser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamTokeniser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4StreamWriter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/SBJson/SBJson4Writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SBJson.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Parser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParserState.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamParserState.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamTokeniser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamTokeniser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriterState.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4StreamWriterState.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SBJson/src/main/objc/SBJson4Writer.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SBJson/Pods-EpicGlue-SBJson.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-dummy.m" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-dummy.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,27 +106,89 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FavoritesManager">
     <favorites_list name="EpicGlue" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ItemManager.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemManager.m">
+      <file leaf-file-name="ImageCell.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/ImageCell.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="765">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#621#650#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateParser.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#110#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateParser.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemCollectionViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
+      <file leaf-file-name="ItemCell.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCell.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#134#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/Item.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="780">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemModelFactory.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -62,39 +197,23 @@
       <file leaf-file-name="ItemModelFactory.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="432">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#2#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemModel.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModel.m">
+      <file leaf-file-name="ItemList.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/Model.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/Model.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#2#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,9 +227,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/EpicGlue/ItemManager.m" />
-        <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/EpicGlue/Connector.m" />
         <option value="$PROJECT_DIR$/EpicGlue/LinkItemModel.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemModel.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/JSON.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/JSON.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemList.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Location.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Location.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/EpicGlue/DateParser.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/DateParser.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemModel.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemList.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Item.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemModelFactory.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemModelFactory.m" />
       </list>
     </option>
@@ -308,6 +441,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="EpicGlue,,,EpicGlueTests" />
   </component>
   <component name="RunManager" selected="Application.EpicGlue">
     <configuration default="false" name="EpicGlue" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="EpicGlue" TARGET_NAME="EpicGlue" CONFIG_NAME="Debug" SCHEME_NAME="EpicGlue" RUN_TARGET_PROJECT_NAME="EpicGlue" RUN_TARGET_NAME="EpicGlue" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -397,14 +531,21 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="Pods-EpicGlue-SBJson" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlue-SBJson" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlue-SBJson" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="Pods-EpicGlue-DateTools" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlue-DateTools" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlue-DateTools" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
       <method />
     </configuration>
-    <list size="11">
+    <configuration default="false" name="Pods-EpicGlue-ISO8601DateFormatter" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlue-ISO8601DateFormatter" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlue-ISO8601DateFormatter" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-AFNetworking" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-AppbotX" />
       <item index="2" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-ARCollectionViewMasonryLayout" />
@@ -414,8 +555,9 @@
       <item index="6" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-MBProgressHUD" />
       <item index="7" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-SDWebImage" />
       <item index="8" class="java.lang.String" itemvalue="Application.Pods-EpicGlue" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-SBJson" />
-      <item index="10" class="java.lang.String" itemvalue="Application.EpicGlue" />
+      <item index="9" class="java.lang.String" itemvalue="Application.EpicGlue" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-DateTools" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-ISO8601DateFormatter" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -443,33 +585,39 @@
       <option name="project" value="LOCAL" />
       <updated>1434520030067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed classes without content">
+      <created>1434520183743</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1434520183743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1233" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35328466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25412542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25356844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24937028" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -518,94 +666,12 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-dummy.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-prefix.pch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-dummy.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
@@ -706,6 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9191176" vertical-offset="625" max-vertical-offset="1305">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -788,28 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Connector.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#135#156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="659">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38106236" vertical-offset="0" max-vertical-offset="705">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -822,22 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="765">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="657">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
@@ -846,19 +879,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModel.m">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Connector.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlueTests/EpicGlueTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5479452" vertical-offset="0" max-vertical-offset="675">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283105" vertical-offset="0" max-vertical-offset="657">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/JSON.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="657">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/JSON.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="765">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#134#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Location.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.456621" vertical-offset="0" max-vertical-offset="657">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#235#260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43378997" vertical-offset="0" max-vertical-offset="657">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ImageCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#621#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Location.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="780">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemModelFactory.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4861111" vertical-offset="0" max-vertical-offset="432">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.25114155" vertical-offset="0" max-vertical-offset="657">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
