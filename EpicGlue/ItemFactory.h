@@ -1,5 +1,5 @@
 //
-//  ItemModelFactory.h
+//  ItemFactory.h
 //  EpicGlue
 //
 //  Created by Marek on 15/03/2015.
@@ -11,7 +11,7 @@
 @class Item;
 @class JSON;
 
-@interface ItemModelFactory : NSObject
+@interface ItemFactory : NSObject
 
 + (Item *)modelFromJSON:(JSON *)json;
 

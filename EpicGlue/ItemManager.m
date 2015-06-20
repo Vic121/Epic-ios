@@ -8,7 +8,7 @@
 
 #import "ItemManager.h"
 
-#import "ItemModelFactory.h"
+#import "ItemFactory.h"
 
 @implementation ItemManager
 
@@ -25,7 +25,7 @@
         
         for (NSDictionary *json_item in json)
         {
-            Item *item = [ItemModelFactory modelFromJSON:json_item];
+            Item *item = [ItemFactory modelFromJSON:json_item];
             
             [models addObject:item];
         }

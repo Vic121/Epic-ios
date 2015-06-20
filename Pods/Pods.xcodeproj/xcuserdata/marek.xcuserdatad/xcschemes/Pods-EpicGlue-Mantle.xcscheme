@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EFED6785020514ACE47E01F0"
+               BlueprintIdentifier = "136E816DED6678312CD62938"
                BuildableName = "libPods-EpicGlue-Mantle.a"
                BlueprintName = "Pods-EpicGlue-Mantle"
                ReferencedContainer = "container:Pods.xcodeproj">

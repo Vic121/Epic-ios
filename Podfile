@@ -13,12 +13,8 @@ target 'EpicGlue' do
   pod 'SDWebImage', '~> 3.7.2'
   pod 'AppbotX', :git => 'https://github.com/appbotx/appbotx.git'
   pod 'BlocksKit', '~> 2.2.5'
-# pod 'JSONKit', '~> 1.5pre'
-# pod 'JSONKit', :podspec => 'https://gist.github.com/marcdown/5282955/raw/2a52cfd92f112f2a52669420c82c1bb1efd15d2a/JSONKit.podspec'
-#   pod 'SBJson', '~> 4.0.0'
   pod 'DateTools'
   pod 'ISO8601DateFormatter'
-
 end
 
 target 'EpicGlueTests' do
