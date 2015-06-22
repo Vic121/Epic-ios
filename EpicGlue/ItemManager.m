@@ -8,8 +8,6 @@
 
 #import "ItemManager.h"
 
-#import "ItemFactory.h"
-
 @implementation ItemManager
 
 @synthesize items;
@@ -25,9 +23,9 @@
         
         for (NSDictionary *json_item in json)
         {
-            Item *item = [ItemFactory modelFromJSON:json_item];
-            
-            [models addObject:item];
+//            Item *item = [ItemFactory modelFromJSON:json_item];
+//
+//            [models addObject:item];
         }
         
         items = [NSArray arrayWithArray:models];

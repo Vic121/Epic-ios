@@ -7,7 +7,11 @@
 #import "JSON.h"
 
 
-@implementation ItemList;
+@implementation ItemList {
+@private
+    NSArray *_items;
+}
+@synthesize items = _items;;
 
 + (ItemList *)fromJSON:(JSON *)_json {
     return nil;

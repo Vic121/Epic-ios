@@ -7,42 +7,57 @@
 
 
 @implementation Item {
+
 @private
     NSString *_itemId;
-    NSString *_title;
-    NSString *_description;
-    NSString *_mediaType;
-    NSString *_itemType;
-    NSString *_url;
     NSString *_author;
     NSString *_authorImage;
     NSString *_authorImageLarge;
-    NSString *_visiblity;
     NSString *_image;
     NSString *_imageSmall;
     NSString *_imageLarge;
-    Location *_location;
+    NSString *_itemType;
+    NSString *_mediaType;
+    NSString *_service;
+    NSString *_title;
+    NSString *_description;
+    NSString *_url;
+    NSArray *_tags;
+    BOOL _isRead;
+    BOOL _hasPin;
+    float _lat;
+    float _lon;
+    NSString *_locationName;
+    int _points;
+    int _comments;
     NSDate *_contentCreatedAt;
-    NSDate *_orderDate;
     NSDate *_createdAt;
     NSDate *_updatedAt;
 }
+
+
 @synthesize itemId = _itemId;
-@synthesize title = _title;
-@synthesize description = _description;
-@synthesize mediaType = _mediaType;
-@synthesize itemType = _itemType;
-@synthesize url = _url;
 @synthesize author = _author;
 @synthesize authorImage = _authorImage;
 @synthesize authorImageLarge = _authorImageLarge;
-@synthesize visiblity = _visiblity;
 @synthesize image = _image;
 @synthesize imageSmall = _imageSmall;
 @synthesize imageLarge = _imageLarge;
-@synthesize location = _location;
+@synthesize itemType = _itemType;
+@synthesize mediaType = _mediaType;
+@synthesize service = _service;
+@synthesize title = _title;
+@synthesize description = _description;
+@synthesize url = _url;
+@synthesize tags = _tags;
+@synthesize isRead = _isRead;
+@synthesize hasPin = _hasPin;
+@synthesize lat = _lat;
+@synthesize lon = _lon;
+@synthesize locationName = _locationName;
+@synthesize points = _points;
+@synthesize comments = _comments;
 @synthesize contentCreatedAt = _contentCreatedAt;
-@synthesize orderDate = _orderDate;
 @synthesize createdAt = _createdAt;
 @synthesize updatedAt = _updatedAt;
 
@@ -55,7 +70,7 @@
         }
     }
 
-    _instance.itemId = [json objectForKey:@"item_id"];
+//    _instance.itemId = [json objectForKey:@"item_id"];
 
     return _instance;
 }

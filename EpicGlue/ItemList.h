@@ -10,6 +10,8 @@
 
 @interface ItemList : NSObject
 
+@property(nonatomic) NSArray *items;
+
 + (ItemList *)fromJSON:(JSON *)_json;
 //-()fetch;
 

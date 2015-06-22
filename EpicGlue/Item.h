@@ -12,24 +12,30 @@
 
 @interface Item : NSObject
 
-@property(nonatomic) NSString *itemId;
-@property(nonatomic) NSString *title;
-@property(nonatomic) NSString *description;
-@property(nonatomic) NSString *mediaType;
-@property(nonatomic) NSString *itemType;
-@property(nonatomic) NSString *url;
-@property(nonatomic) NSString *author;
-@property(nonatomic) NSString *authorImage;
-@property(nonatomic) NSString *authorImageLarge;
-@property(nonatomic) NSString *visiblity;
-@property(nonatomic) NSString *image;
-@property(nonatomic) NSString *imageSmall;
-@property(nonatomic) NSString *imageLarge;
-@property(nonatomic) Location *location;
-@property(nonatomic) NSDate *contentCreatedAt;
-@property(nonatomic) NSDate *orderDate;
-@property(nonatomic) NSDate *createdAt;
-@property(nonatomic) NSDate *updatedAt;
+@property(readonly) NSString *itemId;
+@property(readonly) NSString *author;
+@property(readonly) NSString *authorImage;
+@property(readonly) NSString *authorImageLarge;
+@property(readonly) NSString *image;
+@property(readonly) NSString *imageSmall;
+@property(readonly) NSString *imageLarge;
+@property(readonly) NSString *itemType;
+@property(readonly) NSString *mediaType;
+@property(readonly) NSString *service;
+@property(readonly) NSString *title;
+@property(readonly) NSString *description;
+@property(readonly) NSString *url;
+@property(readonly) NSArray *tags;
+@property(readonly) BOOL isRead;
+@property(readonly) BOOL hasPin;
+@property(readonly) float lat;
+@property(readonly) float lon;
+@property(readonly) NSString *locationName;
+@property(readonly) int points;
+@property(readonly) int comments;
+@property(readonly) NSDate *contentCreatedAt;
+@property(readonly) NSDate *createdAt;
+@property(readonly) NSDate *updatedAt;
 
 + (Item *)fromJSON:(JSON *)json;
 
