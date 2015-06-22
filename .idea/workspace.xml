@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Updated pods">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
+    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Workspace">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-DateTools.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-DateTools.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ISO8601DateFormatter.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ISO8601DateFormatter.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ios.iws" />
@@ -124,8 +135,8 @@
       <file leaf-file-name="UserStat.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/UserStat.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1826484" vertical-offset="0" max-vertical-offset="657">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -515,7 +526,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434947007243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Workspace">
+      <created>1434947021695</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1434947021695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -588,7 +605,8 @@
     <MESSAGE value="Progress, mostly code cleanup + shell classes" />
     <MESSAGE value="Updated pods" />
     <MESSAGE value="Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models" />
+    <MESSAGE value="Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1006,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/UserStat.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1826484" vertical-offset="0" max-vertical-offset="657">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

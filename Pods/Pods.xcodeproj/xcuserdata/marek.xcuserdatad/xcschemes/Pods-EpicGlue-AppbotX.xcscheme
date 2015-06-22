@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A851D56B36AAF998B28BC5C"
+               BlueprintIdentifier = "16A9C3467B5DE8A36369A1E7"
                BuildableName = "libPods-EpicGlue-AppbotX.a"
                BlueprintName = "Pods-EpicGlue-AppbotX"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8AF3C66340A2069FF9720044"
+               BlueprintIdentifier = "FA50197BB2B0CBDB42434020"
                BuildableName = "libPods-EpicGlue-DateTools.a"
                BlueprintName = "Pods-EpicGlue-DateTools"
                ReferencedContainer = "container:Pods.xcodeproj">
