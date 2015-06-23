@@ -4,15 +4,31 @@
 //
 
 #import "ItemList.h"
-#import "JSON.h"
+#import "Item.h"
 
 
 @implementation ItemList {
 @private
-    NSArray *_items;
+    NSArray *_list;
 }
-@synthesize items = _items;;
+@synthesize list = _list;
 
-+ (ItemList *)fromJSON:(JSON *)_json {
-    return nil;
++ (ItemList *)instance {
+    static ItemList *_instance = nil;
+
+    @synchronized (self) {
+        if (_instance == nil) {
+            _instance = [[self alloc] init];
+        }
+    }
+
+    return _instance;
+}
+
+- (void)addItem:(Item *)item {
+    [self.list addObject:item];
+}
+
+- (NSArray *)getList {
+    return self.list;
 };

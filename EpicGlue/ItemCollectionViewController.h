@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ItemManager.h"
+@class ItemListManager;
 
 @interface ItemCollectionViewController : UICollectionViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
-@property (nonatomic) ItemManager *itemManager;
+@property(nonatomic) ItemListManager *itemListManager;
 
 @end

@@ -12,6 +12,7 @@
 #import "TitleWithDescriptionCell.h"
 #import "ImageCell.h"
 #import "ImageWithTitleCell.h"
+#import "ItemListManager.h"
 
 @interface ItemCollectionViewController ()
 
@@ -19,7 +20,7 @@
 
 @implementation ItemCollectionViewController
 
-@synthesize itemManager;
+@synthesize itemListManager;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,16 +33,16 @@
     [self.collectionView registerClass:[TitleWithDescriptionCell class] forCellWithReuseIdentifier:@"title_with_description_cell"];
     [self.collectionView registerClass:[ImageCell class] forCellWithReuseIdentifier:@"image_cell"];
     [self.collectionView registerClass:[ImageWithTitleCell class] forCellWithReuseIdentifier:@"image_with_title_cell"];
-    
-    itemManager = [[ItemManager alloc] init];
-    [itemManager fetchItems:^{
-        [self.collectionView reloadData];
-        
-        NSLog(@"collection reloaded");
-        NSLog(@"%d", itemManager.items.count);
-    } onFailure:^ {
-        
-    }];
+
+    itemListManager = [ItemListManager instance];
+//    [itemManager fetchItems:^{
+//        [self.collectionView reloadData];
+//
+//        NSLog(@"collection reloaded");
+//        NSLog(@"%d", itemListManager.items.count);
+//    } onFailure:^ {
+//
+//    }];
 }
 
 - (void)didReceiveMemoryWarning {

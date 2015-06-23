@@ -7,14 +7,33 @@
 
 @class ItemList;
 @class DataSource;
+@class ItemFilter;
+
+const API_URL = @"http://localhost:7000/";
+const PAGINATE_BEFORE = @"before";
+const PAGINATE_AFTER = @"after";
 
 
 @interface ItemListManager : NSObject
 
-@property ItemList *itemList;
+@property ItemList *currentItemList;
 @property DataSource *dataSource;
 
 + (ItemListManager *)instance;
+
+- (ItemList *)getItems:(ItemFilter *)filter;
+
+- (NSURL *)buildURL:(ItemFilter *)filter;
+
+- (NSURL *)buildURL:(ItemFilter *)filter withPagination:(NSString *)paginatorName token:(NSString *)paginatorToken;
+
+- (void)switchItemList:(ItemList *)list;
+
+- (BOOL)loadEalier;
+
+- (BOOL)loadLater;
+
+- (BOOL)reload;
 
 - (void)newDataSource:(DataSource *)data;
 

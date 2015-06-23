@@ -6,13 +6,20 @@
 #import <Foundation/Foundation.h>
 
 @class JSON;
+@class ItemFilterList;
+@class Item;
 
 
 @interface ItemList : NSObject
 
-@property(nonatomic) NSArray *items;
+@property(nonatomic) NSMutableArray *list;
+@property(nonatomic) ItemFilterList *filters;
 
-+ (ItemList *)fromJSON:(JSON *)_json;
++ (ItemList *)instance;
+
+- (void)addItem:(Item *)item;
+
+- (NSArray *)getList;
 //-()fetch;
 
 @end
