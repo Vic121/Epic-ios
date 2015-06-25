@@ -4,16 +4,23 @@
 //
 
 #import "DateParser.h"
-#import "ISO8601DateFormatter.h"
+
 
 
 @implementation DateParser {
 
 }
 
-+ (NSDate *)dateFromString:(NSString *)string {
-    ISO8601DateFormatter *formatter = [[ISO8601DateFormatter alloc] init];
-    return [formatter dateFromString:string timeZone:[NSTimeZone localTimeZone]];
++ (NSDate *)dateFromString:(NSString *)dateString {
+//    NSString *dateString = @"2013-04-18T08:49:58.157+0000";
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss.SSSZ"];
+    // Always use this locale when parsing fixed format date strings
+    NSLocale *posix = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+    [formatter setLocale:posix];
+    NSDate *date = [formatter dateFromString:dateString];
+    
+    return date;
 }
 
 @end

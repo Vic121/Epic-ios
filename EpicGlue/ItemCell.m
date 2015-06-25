@@ -10,7 +10,7 @@
 
 @implementation ItemCell
 
-@synthesize model;
+//@synthesize model;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -25,10 +25,10 @@
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEAD_HEIGHT)];
     
-    UILabel *author = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEAD_HEIGHT)];
-    [author setText:self.model.author];
-    [author setTextColor:[UIColor purpleColor]];
-    [view addSubview:author];
+//    UILabel *author = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEAD_HEIGHT)];
+//    [author setText:self.model.author];
+//    [author setTextColor:[UIColor purpleColor]];
+//    [view addSubview:author];
     
     [view setBackgroundColor:[UIColor greenColor]];
     
@@ -48,10 +48,10 @@
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, FOOT_HEIGHT)];
     
-    UILabel *author = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, WIDTH, FOOT_HEIGHT)];
-    [author setText:self.model.author];
-    [author setTextColor:[UIColor purpleColor]];
-    [view addSubview:author];
+//    UILabel *author = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, WIDTH, FOOT_HEIGHT)];
+//    [author setText:self.model.author];
+//    [author setTextColor:[UIColor purpleColor]];
+//    [view addSubview:author];
     
     [view setBackgroundColor:[UIColor blueColor]];
     

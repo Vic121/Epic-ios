@@ -10,7 +10,7 @@
 @implementation ItemFilterList {
 
 @private
-    NSArray *_list;
+    NSMutableArray *_list;
 }
 @synthesize list = _list;
 

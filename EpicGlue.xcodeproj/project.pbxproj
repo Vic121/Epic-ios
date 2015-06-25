@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B37F68DABDD7379A17077F2 /* libPods-EpicGlueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D81AB88A6020384168C004 /* libPods-EpicGlueTests.a */; };
 		62DD200CD70A95D91833685B /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2B9E52F412AD9D750395 /* Token.m */; };
 		62DD20331D3F9348BD620FF9 /* ItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C915B5BA4622FB528E7 /* ItemFilter.m */; };
 		62DD20890CCC11A4FEF47FAA /* ItemFilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */; };
 		62DD2092A79ECA814D645748 /* ServiceProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD22B0E63409D33BF999BA /* ServiceProfile.m */; };
-		62DD218645ADA5363EADCD84 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2599EAE779B784C75B5E /* Category.m */; };
+		62DD217A2ED9E3D4963827E8 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26C05174E64DA47C31AC /* Location.m */; };
 		62DD219E59DA875640047728 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26E909FCD22D0A64EE4F /* Task.m */; };
 		62DD21CABAD9C563CE2D8D24 /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C8687E81475692C00D0 /* DateParser.m */; };
 		62DD226EBB645CA77189E6FF /* ItemFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C915B5BA4622FB528E7 /* ItemFilter.m */; };
@@ -30,7 +31,6 @@
 		62DD2871EB7CD85E534A0403 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD25D44366DB7E88594E3B /* Source.m */; };
 		62DD288B02B7DB13CB7332F1 /* UserStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CD1E5D3E8286B7CD19B /* UserStat.m */; };
 		62DD289CAC2D677D3E31C164 /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD20372E7625EE80EC68AD /* Subscription.m */; };
-		62DD28AC42F375B9D5C1B809 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2599EAE779B784C75B5E /* Category.m */; };
 		62DD292C85E67B9236F1870E /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD25D44366DB7E88594E3B /* Source.m */; };
 		62DD296EF49D877694070286 /* APIRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CD6655B7BF63C8C8748 /* APIRequestTask.m */; };
 		62DD297145756A7593CF409D /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD269137479F5DC486E92B /* Item.m */; };
@@ -47,6 +47,7 @@
 		62DD2CA93FF59728DAF0C69C /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C8687E81475692C00D0 /* DateParser.m */; };
 		62DD2CE6A3C205F83469947A /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26E909FCD22D0A64EE4F /* Task.m */; };
 		62DD2D2211F9649182E6F1E4 /* ImageFetchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CC04928BA986A6B8295 /* ImageFetchTask.m */; };
+		62DD2E12383F968FC2AF2026 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26C05174E64DA47C31AC /* Location.m */; };
 		62DD2E43AA587F7F15D15B53 /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD28F47A9A6BA282A9CC6B /* TaskQueue.m */; };
 		62DD2E5443EC28C686B69E5E /* UserSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2AA7C439FAC75862C447 /* UserSocialProfile.m */; };
 		62DD2EC02A705EF24A455132 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2292567D5D6B3841ED7A /* ItemList.m */; };
@@ -86,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		301FE20E2352B033DE801C81 /* Pods-EpicGlueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62DD20372E7625EE80EC68AD /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
 		62DD204CD08D2AEB3BE2B068 /* ItemListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListManager.h; sourceTree = "<group>"; };
 		62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemFilterList.m; sourceTree = "<group>"; };
@@ -96,10 +98,8 @@
 		62DD22B0E63409D33BF999BA /* ServiceProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProfile.m; sourceTree = "<group>"; };
 		62DD23BD03AD3C7E4C135ADF /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		62DD249AF402EFB4A1CD9CEE /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
-		62DD24AC4127C619C2D51D5E /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
 		62DD24BFC344AE3E7DA1BE76 /* RequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTask.m; sourceTree = "<group>"; };
 		62DD250201BA86ABA6C936F2 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
-		62DD2599EAE779B784C75B5E /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
 		62DD25D44366DB7E88594E3B /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
 		62DD25F87C685F6CF888069A /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
 		62DD2663C1A23054229BBF98 /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 		62DD269137479F5DC486E92B /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		62DD26AC1B9AE35AAF9D2D39 /* DateParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateParser.h; sourceTree = "<group>"; };
 		62DD26AEE7329CBD83760E60 /* APIRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestTask.h; sourceTree = "<group>"; };
+		62DD26C05174E64DA47C31AC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		62DD26E909FCD22D0A64EE4F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		62DD274357C9ACF556E9E9EA /* ItemReadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemReadTask.m; sourceTree = "<group>"; };
 		62DD275B01047AC71873B389 /* ImageFetchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetchTask.h; sourceTree = "<group>"; };
@@ -132,10 +133,13 @@
 		62DD2D57328CC7828191112F /* ItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemList.h; sourceTree = "<group>"; };
 		62DD2D9729B7E152A07B4FC0 /* ItemListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListManager.m; sourceTree = "<group>"; };
 		62DD2E28F86B10A504E1A7E7 /* ServiceProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProfile.h; sourceTree = "<group>"; };
+		62DD2E42D2759115D76A998E /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		62DD2E7276A0E529F3FA288F /* ItemFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemFilter.h; sourceTree = "<group>"; };
 		62DD2F4FDB9198F6F99A43AB /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
 		75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig"; sourceTree = "<group>"; };
+		84ECA1531B709D414BD98F67 /* Pods-EpicGlueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests.release.xcconfig"; sourceTree = "<group>"; };
 		A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D81AB88A6020384168C004 /* libPods-EpicGlueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig"; sourceTree = "<group>"; };
 		EA320A511AA8CB7C008A3F02 /* EpicGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA320A551AA8CB7C008A3F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B37F68DABDD7379A17077F2 /* libPods-EpicGlueTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +201,8 @@
 			children = (
 				D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */,
 				75EC175EA5891DC88C5DCF95 /* Pods-EpicGlue.release.xcconfig */,
+				301FE20E2352B033DE801C81 /* Pods-EpicGlueTests.debug.xcconfig */,
+				84ECA1531B709D414BD98F67 /* Pods-EpicGlueTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 			children = (
 				EA320A7E1AA8D5C7008A3F02 /* StoreKit.framework */,
 				A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */,
+				D7D81AB88A6020384168C004 /* libPods-EpicGlueTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -322,6 +330,8 @@
 				62DD2E7276A0E529F3FA288F /* ItemFilter.h */,
 				62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */,
 				62DD226FAE71F467E437D1AA /* ItemFilterList.h */,
+				62DD26C05174E64DA47C31AC /* Location.m */,
+				62DD2E42D2759115D76A998E /* Location.h */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -331,8 +341,6 @@
 			children = (
 				62DD2A941123347616850412 /* Item.h */,
 				62DD269137479F5DC486E92B /* Item.m */,
-				62DD2599EAE779B784C75B5E /* Category.m */,
-				62DD24AC4127C619C2D51D5E /* Category.h */,
 				62DD25D44366DB7E88594E3B /* Source.m */,
 				62DD2C3F449B3B4E49E9DFB3 /* Source.h */,
 				62DD20372E7625EE80EC68AD /* Subscription.m */,
@@ -434,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA320A7A1AA8CB7C008A3F02 /* Build configuration list for PBXNativeTarget "EpicGlueTests" */;
 			buildPhases = (
+				2C2A6F2292307311BA689B24 /* Check Pods Manifest.lock */,
 				EA320A691AA8CB7C008A3F02 /* Sources */,
 				EA320A6A1AA8CB7C008A3F02 /* Frameworks */,
 				EA320A6B1AA8CB7C008A3F02 /* Resources */,
+				8E74CA97F02CC2723AA55191 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -545,6 +555,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2C2A6F2292307311BA689B24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E74CA97F02CC2723AA55191 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -574,7 +614,6 @@
 				62DD296EF49D877694070286 /* APIRequestTask.m in Sources */,
 				62DD2C577B6653314F227A74 /* ItemReadTask.m in Sources */,
 				62DD25BF5F9C72F320933558 /* ItemListManager.m in Sources */,
-				62DD218645ADA5363EADCD84 /* Category.m in Sources */,
 				62DD292C85E67B9236F1870E /* Source.m in Sources */,
 				62DD2C3DD678C7FBF496B136 /* DataSource.m in Sources */,
 				62DD24225B221ED525F88689 /* Subscription.m in Sources */,
@@ -588,6 +627,7 @@
 				62DD2BB2373714767E8BCBA6 /* ItemList.m in Sources */,
 				62DD20331D3F9348BD620FF9 /* ItemFilter.m in Sources */,
 				62DD2C697902FE94BA6ABDDD /* ItemFilterList.m in Sources */,
+				62DD2E12383F968FC2AF2026 /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +646,6 @@
 				62DD2F0226036F08A7C78670 /* APIRequestTask.m in Sources */,
 				62DD2AB8DE7CC9AD75788456 /* ItemReadTask.m in Sources */,
 				62DD229DA7AA359AC87229C4 /* ItemListManager.m in Sources */,
-				62DD28AC42F375B9D5C1B809 /* Category.m in Sources */,
 				62DD2871EB7CD85E534A0403 /* Source.m in Sources */,
 				62DD2712E5C33C63B232EB47 /* DataSource.m in Sources */,
 				62DD289CAC2D677D3E31C164 /* Subscription.m in Sources */,
@@ -620,6 +659,7 @@
 				62DD2EC02A705EF24A455132 /* ItemList.m in Sources */,
 				62DD226EBB645CA77189E6FF /* ItemFilter.m in Sources */,
 				62DD20890CCC11A4FEF47FAA /* ItemFilterList.m in Sources */,
+				62DD217A2ED9E3D4963827E8 /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,8 +805,9 @@
 		};
 		EA320A7B1AA8CB7C008A3F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301FE20E2352B033DE801C81 /* Pods-EpicGlueTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/EpicGlue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -777,23 +818,38 @@
 				);
 				INFOPLIST_FILE = EpicGlueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-EpicGlueTests-Kiwi\"",
+					"-framework",
+					"\"SenTestingKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/EpicGlue";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
 		EA320A7C1AA8CB7C008A3F02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84ECA1531B709D414BD98F67 /* Pods-EpicGlueTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/Contents/MacOS/EpicGlue";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = EpicGlueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-EpicGlueTests-Kiwi\"",
+					"-framework",
+					"\"SenTestingKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpicGlue.app/EpicGlue";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};

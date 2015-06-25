@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ItemListManager.h"
+#import "ItemList.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    
+    ItemList *itemList = [ItemList instance];
+
+    ItemListManager *itemManager = [ItemListManager instance];
+    [itemManager setCurrentItemList:itemList];
+
     return YES;
 }
 

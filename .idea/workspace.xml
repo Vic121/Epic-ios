@@ -1,21 +1,462 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Pods">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilter.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilterList.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilterList.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemManager.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/ItemManager.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h" />
+    <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Progress">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/hr.lproj/DateTools.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWAfterAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWAfterAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWAfterAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWAfterAllNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWAfterEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWAfterEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWAfterEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWAfterEachNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Config/KWAllTestsSuite.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWAny.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWAny.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWAny.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWAny.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWAsyncVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWAsyncVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWAsyncVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWAsyncVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeBetweenMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeBetweenMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeBetweenMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeBetweenMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeEmptyMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeEmptyMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeEmptyMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeEmptyMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeIdenticalToMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeIdenticalToMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeIdenticalToMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeIdenticalToMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeKindOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeKindOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeKindOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeKindOfClassMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeMemberOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeMemberOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeMemberOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeMemberOfClassMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeSubclassOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeSubclassOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeSubclassOfClassMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeSubclassOfClassMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeTrueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeTrueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeTrueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeTrueMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeWithinMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeWithinMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeWithinMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeWithinMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeZeroMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeZeroMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeZeroMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBeZeroMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeforeAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeforeAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBeforeAllNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBeforeAllNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBeforeEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBeforeEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBeforeEachNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBeforeEachNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWBlock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWBlock.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBlockNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBlockNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBlockNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWBlockNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWBlockRaiseMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWBlockRaiseMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBlockRaiseMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWBlockRaiseMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWCallSite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWCallSite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWCallSite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWCallSite.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWCaptureSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWCaptureSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWCaptureSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWCaptureSpy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWChangeMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWChangeMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWChangeMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWChangeMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWConformToProtocolMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWConformToProtocolMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWConformToProtocolMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWConformToProtocolMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWContainMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWContainMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWContainMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWContainMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWContainStringMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWContainStringMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWContainStringMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWContainStringMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWContextNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWContextNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWContextNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWContextNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWCountType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWCountType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWCountType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWDeviceInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWDeviceInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWDeviceInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWDeviceInfo.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWEqualMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWEqualMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWEqualMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWEqualMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExample.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExampleDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExampleDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExampleNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExampleNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWExampleNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExampleNodeVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExampleNodeVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleNodeVisitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExampleSuite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExampleSuite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleSuite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleSuite.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExampleSuiteBuilder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExampleSuiteBuilder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleSuiteBuilder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExampleSuiteBuilder.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExistVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExistVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWExistVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWExistVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWExpectationType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWExpectationType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWExpectationType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFailure.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFormatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFormatter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWFutureObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWFutureObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFutureObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWFutureObject.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWGenericMatchEvaluator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWGenericMatchEvaluator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatchEvaluator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatchEvaluator.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWGenericMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWGenericMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWGenericMatchingAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWGenericMatchingAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatchingAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWGenericMatchingAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWHaveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWHaveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWHaveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWHaveMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWHaveValueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWHaveValueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWHaveValueMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWHaveValueMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWInequalityMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWInequalityMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWInequalityMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWInequalityMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWIntercept.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWIntercept.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/KWIntercept.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/KWIntercept.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWInvocationCapturer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWInvocationCapturer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWInvocationCapturer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWInvocationCapturer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWItNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWItNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWItNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWItNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWLet.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWLet.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWLet.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWLetNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWLetNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWLetNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWLetNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMatchVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMatchVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWMatchVerifier.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWMatchVerifier.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMatcherFactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMatcherFactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatcherFactory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatcherFactory.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatchers.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMatching.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMatching.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMatching.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMessagePattern.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMessagePattern.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMessagePattern.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMessagePattern.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMessageSpying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMessageSpying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMessageSpying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMessageTracker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMessageTracker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMessageTracker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWMessageTracker.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWMock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWMock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Mocking/KWMock.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Mocking/KWMock.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWNilMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWNilMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWNilMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWNilMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWNotificationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWNotificationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWNotificationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWNotificationMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWNull.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWNull.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWNull.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWNull.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWObjCUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWObjCUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWObjCUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWObjCUtilities.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWPendingNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWPendingNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWPendingNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWPendingNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWProbe.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWProbe.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWProbe.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWProbePoller.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWProbePoller.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWProbePoller.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWProbePoller.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWReceiveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWReceiveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWReceiveMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWReceiveMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWRegisterMatchersNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWRegisterMatchersNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWRegisterMatchersNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Nodes/KWRegisterMatchersNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWRegularExpressionPatternMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWRegularExpressionPatternMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWRegularExpressionPatternMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWRegularExpressionPatternMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWReporting.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWReporting.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWReporting.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWRespondToSelectorMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWRespondToSelectorMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWRespondToSelectorMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWRespondToSelectorMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWSpec.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWStringContainsMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWStringContainsMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWStringContainsMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWStringContainsMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWStringPrefixMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWStringPrefixMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWStringPrefixMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWStringPrefixMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWStringUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWStringUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWStringUtilities.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWStringUtilities.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWStub.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWStub.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/KWStub.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/KWStub.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWSuiteConfigurationBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWSuiteConfigurationBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Config/KWSuiteConfigurationBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Config/KWSuiteConfigurationBase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWSymbolicator.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWUserDefinedMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWUserDefinedMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWUserDefinedMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Matchers/KWUserDefinedMatcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWValue.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWVerifying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWVerifying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Verifiers/KWVerifying.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KWWorkarounds.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KWWorkarounds.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWWorkarounds.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KWWorkarounds.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/Kiwi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/Kiwi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/Kiwi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KiwiBlockMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KiwiBlockMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KiwiBlockMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KiwiConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KiwiConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KiwiConfiguration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/KiwiMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/KiwiMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/KiwiMacros.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/Location.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSInvocation+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSInvocation+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSInvocation+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSInvocation+KiwiAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSInvocation+OCMAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSInvocation+OCMAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSInvocation+OCMAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSInvocation+OCMAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSMethodSignature+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSMethodSignature+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSMethodSignature+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSMethodSignature+KiwiAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSNumber+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSNumber+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSNumber+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSNumber+KiwiAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSObject+KiwiMockAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSObject+KiwiMockAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Mocking/NSObject+KiwiMockAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Mocking/NSObject+KiwiMockAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSObject+KiwiSpyAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSObject+KiwiSpyAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSObject+KiwiSpyAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSObject+KiwiSpyAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSObject+KiwiStubAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSObject+KiwiStubAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/NSObject+KiwiStubAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Stubbing/NSObject+KiwiStubAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSObject+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSObject+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSObject+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSObject+KiwiVerifierAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSProxy+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSProxy+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSProxy+KiwiVerifierAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSProxy+KiwiVerifierAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Private/Kiwi/NSValue+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Headers/Public/Kiwi/NSValue+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSValue+KiwiAdditions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Classes/Core/NSValue+KiwiAdditions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests-Kiwi/Pods-EpicGlueTests-Kiwi-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests-Kiwi/Pods-EpicGlueTests-Kiwi-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests-Kiwi/Pods-EpicGlueTests-Kiwi-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests-Kiwi/Pods-EpicGlueTests-Kiwi.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlueTests-Kiwi.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-environment.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlueTests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Kiwi/Readme.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/Category.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/Category.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/ISO8601DateFormatter/ISO8601DateFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/ISO8601DateFormatter/ISO8601DateFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ISO8601DateFormatter/ISO8601DateFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ISO8601DateFormatter/ISO8601DateFormatter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ISO8601DateFormatter/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/ISO8601DateFormatter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ISO8601DateFormatter.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ISO8601DateFormatter/Pods-EpicGlue-ISO8601DateFormatter-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ISO8601DateFormatter/Pods-EpicGlue-ISO8601DateFormatter-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ISO8601DateFormatter/Pods-EpicGlue-ISO8601DateFormatter-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ISO8601DateFormatter/Pods-EpicGlue-ISO8601DateFormatter.xcconfig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/AppDelegate.m" afterPath="$PROJECT_DIR$/EpicGlue/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/DTConstants.h" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/DTConstants.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DateParser.m" afterPath="$PROJECT_DIR$/EpicGlue/DateParser.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/pl.lproj/DateTools.strings" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/pl.lproj/DateTools.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/pt-PT.lproj/DateTools.strings" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/pt-PT.lproj/DateTools.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/zh-Hans.lproj/DateTools.strings" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/DateTools.bundle/zh-Hans.lproj/DateTools.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Item.h" afterPath="$PROJECT_DIR$/EpicGlue/Item.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemList.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemFilterList.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilterList.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemList.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemListManager.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemListManager.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemListManager.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemListManager.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/NSDate+DateTools.h" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/NSDate+DateTools.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/DateTools/NSDate+DateTools.m" afterPath="$PROJECT_DIR$/Pods/DateTools/DateTools/NSDate+DateTools.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AFNetworking/Pods-EpicGlue-AFNetworking-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AFNetworking.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ARCollectionViewMasonryLayout/Pods-EpicGlue-ARCollectionViewMasonryLayout-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ARCollectionViewMasonryLayout.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-AppbotX/Pods-EpicGlue-AppbotX-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-AppbotX.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-BlocksKit/Pods-EpicGlue-BlocksKit-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-BlocksKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-DateTools/Pods-EpicGlue-DateTools-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-DateTools/Pods-EpicGlue-DateTools-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-DateTools.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-DateTools.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-ECSlidingViewController/Pods-EpicGlue-ECSlidingViewController-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-ECSlidingViewController.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-MBProgressHUD/Pods-EpicGlue-MBProgressHUD-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-MBProgressHUD.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-Mantle/Pods-EpicGlue-Mantle-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-Mantle.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue-SDWebImage/Pods-EpicGlue-SDWebImage-Private.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue-SDWebImage.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue-environment.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.release.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/Pods-EpicGlue.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/DateTools/README.md" afterPath="$PROJECT_DIR$/Pods/DateTools/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Service.h" afterPath="$PROJECT_DIR$/EpicGlue/Service.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Service.m" afterPath="$PROJECT_DIR$/EpicGlue/Service.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.h" afterPath="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.m" afterPath="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/TitleCell.m" afterPath="$PROJECT_DIR$/EpicGlue/TitleCell.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.m" afterPath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/marek.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,97 +484,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ItemList.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+              <folding>
+                <element signature="e#137#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EpicGlueTests.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlueTests/EpicGlueTests.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="690">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpicGlue/Service.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemList.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#110#130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemList.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#2#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemFilter.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemFilterList.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilterList.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemListManager.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemListManager.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66210043" vertical-offset="840" max-vertical-offset="1785">
-              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-              <folding>
-                <element signature="e#445#482#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCollectionViewController.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCollectionViewController.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2040">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemFilterList.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilterList.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.75342464" vertical-offset="0" max-vertical-offset="657">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,6 +529,8 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -152,7 +541,6 @@
         <option value="$PROJECT_DIR$/EpicGlue/JSON.h" />
         <option value="$PROJECT_DIR$/EpicGlue/JSON.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/Location.h" />
         <option value="$PROJECT_DIR$/EpicGlue/Location.m" />
         <option value="$PROJECT_DIR$/EpicGlue/DateParser.m" />
         <option value="$PROJECT_DIR$/EpicGlue/DateParser.h" />
@@ -168,14 +556,9 @@
         <option value="$PROJECT_DIR$/EpicGlue/Tasks/ImageFetchTask.h" />
         <option value="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.h" />
         <option value="$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.m" />
-        <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/EpicGlue/DataSource.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemManager.m" />
-        <option value="$PROJECT_DIR$/EpicGlue/Category.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/Item.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
         <option value="$PROJECT_DIR$/EpicGlue/Plan.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/Service.h" />
         <option value="$PROJECT_DIR$/EpicGlue/User.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ServiceProfile.h" />
         <option value="$PROJECT_DIR$/EpicGlue/Source.h" />
@@ -189,9 +572,16 @@
         <option value="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemList.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/ItemList.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemListManager.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemListManager.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/Location.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Item.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/EpicGlue/Category.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/Service.h" />
+        <option value="$PROJECT_DIR$/EpicGlue/ItemList.m" />
       </list>
     </option>
   </component>
@@ -205,7 +595,7 @@
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
@@ -255,6 +645,34 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="EpicGlue" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlue" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlue" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlueTests" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -325,6 +743,28 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlue" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlue" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -334,7 +774,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="new&#9;ACTION&#9;NewElement&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="EpicGlue,,,EpicGlueTests" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/issue-10-core-data-network-application-master" />
@@ -434,14 +874,21 @@
       </EXTENSION>
       <method />
     </configuration>
-    <configuration default="false" name="Pods-EpicGlue-ISO8601DateFormatter" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlue-ISO8601DateFormatter" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlue-ISO8601DateFormatter" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="Pods-EpicGlueTests-Kiwi" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlueTests-Kiwi" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlueTests-Kiwi" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
       <method />
     </configuration>
-    <list size="12">
+    <configuration default="false" name="Pods-EpicGlueTests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-EpicGlueTests" CONFIG_NAME="Debug" SCHEME_NAME="Pods-EpicGlueTests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="13">
       <item index="0" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-AFNetworking" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-AppbotX" />
       <item index="2" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-ARCollectionViewMasonryLayout" />
@@ -452,8 +899,9 @@
       <item index="7" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-SDWebImage" />
       <item index="8" class="java.lang.String" itemvalue="Application.Pods-EpicGlue" />
       <item index="9" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-DateTools" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Pods-EpicGlue-ISO8601DateFormatter" />
-      <item index="11" class="java.lang.String" itemvalue="Application.EpicGlue" />
+      <item index="10" class="java.lang.String" itemvalue="Application.EpicGlue" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Pods-EpicGlueTests-Kiwi" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Pods-EpicGlueTests" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -517,7 +965,13 @@
       <option name="project" value="LOCAL" />
       <updated>1434947088550</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Progress">
+      <created>1435033807316</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1435033807316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,7 +981,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35328466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35182482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -592,7 +1046,8 @@
     <MESSAGE value="Models" />
     <MESSAGE value="Workspace" />
     <MESSAGE value="Pods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pods" />
+    <MESSAGE value="Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -604,80 +1059,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/RequestTask.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/APIRequestTask.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/APIRequestTask.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/ItemReadTask.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/ItemReadTask.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/JSON.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="657">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/ImageFetchTask.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946" vertical-offset="0" max-vertical-offset="657">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32608697" vertical-offset="0" max-vertical-offset="644">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,6 +1078,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10958904" vertical-offset="93" max-vertical-offset="750">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,26 +1107,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Source.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -754,6 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,6 +1158,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,48 +1170,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Category.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Category.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="870">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Plan.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Service.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -882,14 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/UserSocialProfile.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/UserStat.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -898,17 +1226,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilterList.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state vertical-scroll-proportion="0.47945204" vertical-offset="0" max-vertical-offset="657">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
@@ -916,7 +1236,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.41095892" vertical-offset="0" max-vertical-offset="657">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -924,7 +1244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="0.5936073" vertical-offset="210" max-vertical-offset="2040">
           <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding />
         </state>
@@ -933,35 +1253,25 @@
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilterList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="15" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="405">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#110#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -974,13 +1284,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1035">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Location.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Location.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#225#248#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="750">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/APIRequestTask.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/Task.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Tasks/TaskQueue.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DateParser.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/UserSocialProfile.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2310">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="e#137#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlueTests/EpicGlueTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="690">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34246576" vertical-offset="0" max-vertical-offset="657">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Service.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66210043" vertical-offset="840" max-vertical-offset="1785">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        <state vertical-scroll-proportion="2.0091324" vertical-offset="0" max-vertical-offset="1860">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
           <folding>
-            <element signature="e#445#482#0" expanded="true" />
+            <element signature="e#518#555#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemList.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75342464" vertical-offset="0" max-vertical-offset="657">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

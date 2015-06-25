@@ -7,8 +7,7 @@
 
 @class Task;
 
-const QUEUE_NAME = @"Task Queue";
-int const MAX_CONCURRENT_TASKS = 10;
+FOUNDATION_EXPORT int const MAX_CONCURRENT_TASKS;
 
 @interface TaskQueue : NSObject
 

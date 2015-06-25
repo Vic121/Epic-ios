@@ -9,7 +9,7 @@
 
 @implementation ItemList {
 @private
-    NSArray *_list;
+    NSMutableArray *_list;
 }
 @synthesize list = _list;
 
@@ -31,4 +31,7 @@
 
 - (NSArray *)getList {
     return self.list;
-};
+}
+
+
+@end

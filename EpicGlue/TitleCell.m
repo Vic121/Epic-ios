@@ -23,10 +23,10 @@
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, 200)];
     
-    NSLog(@"%@--%@", self.model.title, self.model.desc);
+//    NSLog(@"%@--%@", self.model.title, self.model.desc);
     
     UITextView *title = [[UITextView alloc] initWithFrame:CGRectMake(0, 10, WIDTH, 100)];
-    title.text = self.model.title;
+//    title.text = self.model.title;
     
     [view addSubview:title];
     //    [view bringSubviewToFront:title];

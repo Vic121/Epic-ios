@@ -5,12 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
-@class Category
-
 @interface Service : NSObject
 
 @property(readonly) int serviceId;
-@property(readonly) Category *category;
+//@property(readonly) Category *category;
 @property(readonly) int categoryId;
 @property(readonly) NSString *shortName;
 @property(readonly) NSString *description;

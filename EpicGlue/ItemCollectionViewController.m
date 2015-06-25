@@ -68,26 +68,26 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return itemManager.items.count;
+    return 0;
 }
 
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (ItemCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    ItemModel *model = [itemManager.items objectAtIndex:indexPath.item];
+//    ItemModel *model = [itemManager.items objectAtIndex:indexPath.item];
     
-    NSLog(@"%@", model.mediaType);
+//    NSLog(@"%@", model.mediaType);
     
-    ItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:model.mediaType forIndexPath:indexPath];
+//    ItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:model.mediaType forIndexPath:indexPath];
 //    NSLog(@"%@ for %d", model, indexPath.item);
-    cell.model = model;
+//    cell.model = model;
 //    [cell.contentView addSubview:[cell getContent]];
     
-    [cell.contentView addSubview:[cell getHeader]];
-    [cell.contentView addSubview:[cell getContent]];
-    [cell.contentView addSubview:[cell getFooter]];
+//    [cell.contentView addSubview:[cell getHeader]];
+//    [cell.contentView addSubview:[cell getContent]];
+//    [cell.contentView addSubview:[cell getFooter]];
     
-    return cell;
+    return nil;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

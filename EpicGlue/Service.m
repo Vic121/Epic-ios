@@ -11,7 +11,6 @@
 
 @private
     int _serviceId;
-    Category *_category;
     int _categoryId;
     NSString *_shortName;
     NSString *_description;
@@ -20,7 +19,6 @@
     NSDate *_updatedAt;
 }
 @synthesize serviceId = _serviceId;
-@synthesize category = _category;
 @synthesize categoryId = _categoryId;
 @synthesize shortName = _shortName;
 @synthesize description = _description;

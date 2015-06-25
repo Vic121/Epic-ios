@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C7DF87C11D4D8B0C0F8E031"
+               BlueprintIdentifier = "1F1AAD4B0D8932FAEBB1A61E"
                BuildableName = "libPods-EpicGlue-SDWebImage.a"
                BlueprintName = "Pods-EpicGlue-SDWebImage"
                ReferencedContainer = "container:Pods.xcodeproj">

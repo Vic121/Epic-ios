@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD3F9B2B1EAB21A4414B2872"
+               BlueprintIdentifier = "D1142F846331E17534C2EEBC"
                BuildableName = "libPods-EpicGlue-ARCollectionViewMasonryLayout.a"
                BlueprintName = "Pods-EpicGlue-ARCollectionViewMasonryLayout"
                ReferencedContainer = "container:Pods.xcodeproj">

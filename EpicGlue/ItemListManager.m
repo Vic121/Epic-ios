@@ -11,6 +11,9 @@
 #import "Service.h"
 #import "Item.h"
 
+NSString *const API_URL = @"http://localhost:7000/";
+NSString *const PAGINATE_BEFORE = @"before";
+NSString *const PAGINATE_AFTER = @"after";
 
 @implementation ItemListManager {
 
@@ -59,6 +62,8 @@
     }     failure:^(NSError *error) {
         NSLog(@"fail");
     }];
+    
+    return itemList;
 }
 
 - (void)sendGET:(NSURL *)url success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {

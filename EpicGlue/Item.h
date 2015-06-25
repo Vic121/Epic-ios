@@ -5,7 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class Location;
 @class ItemCell;
 @class JSON;
 
@@ -26,8 +25,8 @@
 @property(readonly) NSString *description;
 @property(readonly) NSString *url;
 @property(readonly) NSArray *tags;
-@property(readonly) BOOL isRead;
-@property(readonly) BOOL hasPin;
+@property(nonatomic) BOOL isRead;
+@property(nonatomic) BOOL hasPin;
 @property(readonly) float lat;
 @property(readonly) float lon;
 @property(readonly) NSString *locationName;
@@ -42,12 +41,5 @@
 - (NSString *)getCellIdentifier;
 
 - (ItemCell *)getCell;
-
-typedef enum mediaTypes {
-    PHOTO,
-    VIDEO,
-    LINK,
-    TEXT
-} MediaType;
 
 @end

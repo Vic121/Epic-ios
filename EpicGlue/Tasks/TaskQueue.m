@@ -6,6 +6,7 @@
 #import "TaskQueue.h"
 #import "Task.h"
 
+int const MAX_CONCURRENT_TASKS = 10;
 
 @implementation TaskQueue {
 
@@ -20,7 +21,7 @@
 - (NSOperationQueue *)queue {
     if (!_queue) {
         NSOperationQueue *q = [[NSOperationQueue alloc] init];
-        q.name = QUEUE_NAME;
+        q.name = @"Task Queue";
         q.maxConcurrentOperationCount = MAX_CONCURRENT_TASKS;
 
         _queue = q;

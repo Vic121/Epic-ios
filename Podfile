@@ -14,10 +14,9 @@ target 'EpicGlue' do
   pod 'AppbotX', :git => 'https://github.com/appbotx/appbotx.git'
   pod 'BlocksKit', '~> 2.2.5'
   pod 'DateTools'
-  pod 'ISO8601DateFormatter'
 end
 
-target 'EpicGlueTests' do
-
+target 'EpicGlueTests', :exclusive => true do
+  pod 'Kiwi'
 end
 

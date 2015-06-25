@@ -9,10 +9,9 @@
 @class DataSource;
 @class ItemFilter;
 
-const API_URL = @"http://localhost:7000/";
-const PAGINATE_BEFORE = @"before";
-const PAGINATE_AFTER = @"after";
-
+FOUNDATION_EXPORT NSString *const API_URL;
+FOUNDATION_EXPORT NSString *const PAGINATE_BEFORE;
+FOUNDATION_EXPORT NSString *const PAGINATE_AFTER;
 
 @interface ItemListManager : NSObject
 
