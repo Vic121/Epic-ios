@@ -57,6 +57,7 @@
 		62DD2F932D1D60FAA225BE02 /* RequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD24BFC344AE3E7DA1BE76 /* RequestTask.m */; };
 		62DD2FB932EAF2566B0E8A76 /* RequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD24BFC344AE3E7DA1BE76 /* RequestTask.m */; };
 		68013BD160712CB514C3FD56 /* libPods-EpicGlue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */; };
+		EA1AF1781B3CFCCB00AFFBC3 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1AF1771B3CFCCB00AFFBC3 /* SampleSpec.m */; };
 		EA320A571AA8CB7C008A3F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A561AA8CB7C008A3F02 /* main.m */; };
 		EA320A5A1AA8CB7C008A3F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA320A591AA8CB7C008A3F02 /* AppDelegate.m */; };
 		EA320A5D1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA320A5B1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld */; };
@@ -141,6 +142,7 @@
 		A1F33AE1A9BCDAED3D98DC7C /* libPods-EpicGlue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D81AB88A6020384168C004 /* libPods-EpicGlueTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpicGlueTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E90E7D6185131E2C221DF0 /* Pods-EpicGlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlue/Pods-EpicGlue.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1AF1771B3CFCCB00AFFBC3 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
 		EA320A511AA8CB7C008A3F02 /* EpicGlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicGlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA320A551AA8CB7C008A3F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA320A561AA8CB7C008A3F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				EA320A7D1AA8D59F008A3F02 /* EpicGlue.entitlements */,
 				EA320A581AA8CB7C008A3F02 /* AppDelegate.h */,
 				EA320A591AA8CB7C008A3F02 /* AppDelegate.m */,
+				EA1AF1771B3CFCCB00AFFBC3 /* SampleSpec.m */,
 				EA320A611AA8CB7C008A3F02 /* Main.storyboard */,
 				EA320A641AA8CB7C008A3F02 /* Images.xcassets */,
 				EA320A661AA8CB7C008A3F02 /* LaunchScreen.xib */,
@@ -639,6 +642,7 @@
 				62DD2B688292F3533B0F36B2 /* JSON.m in Sources */,
 				62DD297145756A7593CF409D /* Item.m in Sources */,
 				62DD21CABAD9C563CE2D8D24 /* DateParser.m in Sources */,
+				EA1AF1781B3CFCCB00AFFBC3 /* SampleSpec.m in Sources */,
 				62DD2707700A7DF0419AD2BC /* TaskQueue.m in Sources */,
 				62DD219E59DA875640047728 /* Task.m in Sources */,
 				62DD2A9D3BDB199D47C5FD0B /* ImageFetchTask.m in Sources */,
