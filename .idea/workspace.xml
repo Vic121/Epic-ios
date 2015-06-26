@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Progress">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/EpicGlue/ItemFilter.h" afterPath="$PROJECT_DIR$/EpicGlue/Filter.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/EpicGlue/ItemFilter.m" afterPath="$PROJECT_DIR$/EpicGlue/Filter.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/AppDelegate.m" afterPath="$PROJECT_DIR$/EpicGlue/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Connector.m" afterPath="$PROJECT_DIR$/EpicGlue/Connector.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DataSource.h" afterPath="$PROJECT_DIR$/EpicGlue/DataSource.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DataSource.m" afterPath="$PROJECT_DIR$/EpicGlue/DataSource.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemList.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemFilterList.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilterList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemFilterList.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemFilterList.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemListManager.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemListManager.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemListManager.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemListManager.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/URL.m" afterPath="$PROJECT_DIR$/EpicGlue/URL.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ios.iws" />
@@ -34,56 +40,7 @@
     <favorites_list name="EpicGlue" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/AppDelegate.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32175925" vertical-offset="176" max-vertical-offset="2235">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemListManager.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="471" max-vertical-offset="1305">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding>
-                <element signature="e#110#137#0" expanded="true" />
-                <element signature="e#485#522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1290">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding>
-                <element signature="e#110#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connector.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EpicGlue/Connector.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="930">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#2#0" expanded="false" />
-                <element signature="e#135#156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -192,34 +149,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="EpicGlue" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Products" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicGlue" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpicGlue" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Frameworks" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -548,13 +477,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1233" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35182482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -859,7 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.h">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Filter.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
@@ -875,13 +804,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemFilter.m">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Filter.m">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#110#132#0" expanded="false" />
-            <element signature="e#319#350#0" expanded="false" />
+            <element signature="e#110#128#0" expanded="false" />
+            <element signature="e#311#342#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1009,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/Connector.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="930">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="201" max-vertical-offset="930">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#0#2#0" expanded="false" />
@@ -1018,20 +947,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="471" max-vertical-offset="1305">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="e#110#137#0" expanded="true" />
-            <element signature="e#485#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1290">
+        <state vertical-scroll-proportion="0.42465752" vertical-offset="561" max-vertical-offset="1290">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#110#132#0" expanded="true" />
@@ -1041,9 +959,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32175925" vertical-offset="176" max-vertical-offset="2235">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="2235">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/ItemListManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47031963" vertical-offset="471" max-vertical-offset="1305">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="e#110#137#0" expanded="true" />
+            <element signature="e#481#518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

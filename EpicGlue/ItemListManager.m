@@ -6,7 +6,7 @@
 #import "ItemListManager.h"
 #import "ItemList.h"
 #import "DataSource.h"
-#import "ItemFilter.h"
+#import "Filter.h"
 #import "Subscription.h"
 #import "Service.h"
 #import "Item.h"

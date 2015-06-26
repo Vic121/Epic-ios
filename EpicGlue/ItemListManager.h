@@ -7,7 +7,7 @@
 
 @class ItemList;
 @class DataSource;
-@class ItemFilter;
+@class Filter;
 @class Connector;
 @class URL;
 @class ItemFilterList;

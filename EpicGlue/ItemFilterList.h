@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class ItemFilter;
+@class Filter;
 
 
 @interface ItemFilterList : NSObject

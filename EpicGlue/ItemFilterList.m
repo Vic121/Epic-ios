@@ -4,7 +4,7 @@
 //
 
 #import "ItemFilterList.h"
-#import "ItemFilter.h"
+#import "Filter.h"
 
 
 @implementation ItemFilterList {

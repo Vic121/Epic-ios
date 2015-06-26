@@ -5,7 +5,7 @@
 
 #import "URL.h"
 #import "ItemFilterList.h"
-#import "ItemFilter.h"
+#import "Filter.h"
 #import "NSString+ABXURLEncoding.h"
 #import "Subscription.h"
 #import "Service.h"
@@ -40,7 +40,7 @@
 
     if ([ds.additionalFilters count] > 0) {
         NSMutableArray *params;
-        for (ItemFilter *filter in ds.additionalFilters) {
+        for (Filter *filter in ds.additionalFilters) {
             [params addObject:[NSString stringWithFormat:@"%s=%s", filter.key, [filter.value urlEncodedString]]];
         }
 

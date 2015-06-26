@@ -5,19 +5,19 @@
 
 #import <Foundation/Foundation.h>
 
-@class ItemFilter;
+@class Filter;
 @class ItemFilterList;
 @class ItemList;
 
 
 @interface DataSource : NSObject
 
-@property (nonatomic) ItemFilter *mainFilter;
+@property (nonatomic) Filter *mainFilter;
 @property (nonatomic) ItemFilterList *additionalFilters;
 
 + (DataSource *)instance;
-+ (DataSource *)initWithFilter:(ItemFilter *)filter;
-+ (DataSource *)initWithFilters:(ItemFilter *)filter and:(ItemFilterList *)list;
++ (DataSource *)initWithFilter:(Filter *)filter;
++ (DataSource *)initWithFilters:(Filter *)filter and:(ItemFilterList *)list;
 
 
 

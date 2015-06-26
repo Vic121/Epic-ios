@@ -3,12 +3,12 @@
 // Copyright (c) 2015 Only Epic Apps. All rights reserved.
 //
 
-#import "ItemFilter.h"
+#import "Filter.h"
 #import "Service.h"
 #import "Subscription.h"
 
 
-@implementation ItemFilter {
+@implementation Filter {
 
 @private
     Service *_service;

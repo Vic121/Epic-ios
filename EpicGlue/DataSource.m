@@ -4,7 +4,7 @@
 //
 
 #import "DataSource.h"
-#import "ItemFilter.h"
+#import "Filter.h"
 #import "ItemFilterList.h"
 #import "ItemList.h"
 #import "Item.h"
@@ -15,20 +15,20 @@
 @implementation DataSource {
 
 @private
-    ItemFilter *_mainFilter;
+    Filter *_mainFilter;
     ItemFilterList *_additionalFilters;
 }
 @synthesize mainFilter = _mainFilter;
 @synthesize additionalFilters = _additionalFilters;
 
-+ (DataSource *)initWithFilter:(ItemFilter *)filter {
++ (DataSource *)initWithFilter:(Filter *)filter {
     DataSource *ds = [DataSource instance];
     ds.mainFilter = filter;
 
     return ds;
 }
 
-+ (DataSource *)initWithFilters:(ItemFilter *)filter and:(ItemFilterList *)list {
++ (DataSource *)initWithFilters:(Filter *)filter and:(ItemFilterList *)list {
     DataSource *ds = [DataSource instance];
     ds.mainFilter = filter;
     ds.additionalFilters = list;

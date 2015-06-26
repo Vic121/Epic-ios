@@ -9,7 +9,7 @@
 @class Subscription;
 
 
-@interface ItemFilter : NSObject
+@interface Filter : NSObject
 
 @property(nonatomic) Service *service;
 @property(nonatomic) Subscription *subscription;
