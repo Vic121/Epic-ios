@@ -4,7 +4,6 @@
 //
 
 #import "FilterList.h"
-#import "Filter.h"
 
 
 @implementation FilterList {

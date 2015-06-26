@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "ItemListManager.h"
-#import "ItemList.h"
 #import "DataSource.h"
 
 @interface AppDelegate ()
