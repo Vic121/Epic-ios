@@ -55,14 +55,10 @@
     [conn sendGET:[URL getByDataSource:self] success:^(NSDictionary *source) {
         ItemList *itemList = [ItemList instance];
 
-        NSLog(@"success");
-
         if ([source objectForKey:@"error"] != nil) {
             NSLog(@"%@", source);
             return;
         }
-
-//        NSLog(@"%@", source);
 
         for (NSDictionary *json in [source objectForKey:@"data"]) {
             Item *item = [Item fromJSON:json];
@@ -71,12 +67,8 @@
                 NSLog(@"item failed from url %@", json);
                 continue;
             }
-            else {
-                NSLog(@"added %@", item.itemId);
-            }
 
             [itemList addItem:item];
-            NSLog(@"Has %d items", [itemList count]);
         }
 
         NSLog(@"Added %d items", [itemList count]);

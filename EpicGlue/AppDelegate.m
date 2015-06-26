@@ -22,8 +22,6 @@
     ItemListManager *itemManager = [ItemListManager initWithDataSource:[DataSource instance]];
     [itemManager getItems];
     
-    NSLog(@"launched");
-
     return YES;
 }
 
