@@ -3,19 +3,19 @@
 // Copyright (c) 2015 Only Epic Apps. All rights reserved.
 //
 
-#import "ItemFilterList.h"
+#import "FilterList.h"
 #import "Filter.h"
 
 
-@implementation ItemFilterList {
+@implementation FilterList {
 
 @private
     NSMutableArray *_list;
 }
 @synthesize list = _list;
 
-+ (ItemFilterList *)initWithFilters:(NSArray *)filters {
-    ItemFilterList *list = [[ItemFilterList alloc] init];
++ (FilterList *)initWithFilters:(NSArray *)filters {
+    FilterList *list = [[FilterList alloc] init];
     list.list = filters;
 
     return list;

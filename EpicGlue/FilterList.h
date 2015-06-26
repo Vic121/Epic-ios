@@ -8,11 +8,11 @@
 @class Filter;
 
 
-@interface ItemFilterList : NSObject
+@interface FilterList : NSObject
 
 @property(nonatomic) NSArray *list;
 
-+ (ItemFilterList *)initWithFilters:(NSArray *)filters;
++ (FilterList *)initWithFilters:(NSArray *)filters;
 
 - (NSArray *)getList;
 - (int) count;

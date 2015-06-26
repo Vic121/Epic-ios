@@ -6,18 +6,18 @@
 #import <Foundation/Foundation.h>
 
 @class Filter;
-@class ItemFilterList;
+@class FilterList;
 @class ItemList;
 
 
 @interface DataSource : NSObject
 
 @property (nonatomic) Filter *mainFilter;
-@property (nonatomic) ItemFilterList *additionalFilters;
+@property (nonatomic) FilterList *additionalFilters;
 
 + (DataSource *)instance;
 + (DataSource *)initWithFilter:(Filter *)filter;
-+ (DataSource *)initWithFilters:(Filter *)filter and:(ItemFilterList *)list;
++ (DataSource *)initWithFilters:(Filter *)filter and:(FilterList *)list;
 
 
 

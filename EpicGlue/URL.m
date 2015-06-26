@@ -4,7 +4,7 @@
 //
 
 #import "URL.h"
-#import "ItemFilterList.h"
+#import "FilterList.h"
 #import "Filter.h"
 #import "NSString+ABXURLEncoding.h"
 #import "Subscription.h"

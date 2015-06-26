@@ -10,13 +10,13 @@
 @class Filter;
 @class Connector;
 @class URL;
-@class ItemFilterList;
+@class FilterList;
 
 @interface ItemListManager : NSObject
 
 @property (nonatomic) Connector *conn;
 @property (nonatomic) URL *url;
-@property (nonatomic) ItemFilterList *filterList;
+@property (nonatomic) FilterList *filterList;
 @property ItemList *currentItemList;
 @property DataSource *dataSource;
 @property (nonatomic) BOOL inProgress;

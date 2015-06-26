@@ -12,7 +12,7 @@
 #import "Item.h"
 #import "Connector.h"
 #import "URL.h"
-#import "ItemFilterList.h"
+#import "FilterList.h"
 
 @implementation ItemListManager {
 

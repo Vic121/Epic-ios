@@ -5,14 +5,14 @@
 
 #import <Foundation/Foundation.h>
 
-@class ItemFilterList;
+@class FilterList;
 @class Item;
 
 
 @interface ItemList : NSObject
 
 @property(nonatomic) NSMutableArray *list;
-@property(nonatomic) ItemFilterList *filters;
+@property(nonatomic) FilterList *filters;
 
 + (ItemList *)instance;
 

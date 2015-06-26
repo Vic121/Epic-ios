@@ -10,7 +10,7 @@
 		3B37F68DABDD7379A17077F2 /* libPods-EpicGlueTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D81AB88A6020384168C004 /* libPods-EpicGlueTests.a */; };
 		62DD200CD70A95D91833685B /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2B9E52F412AD9D750395 /* Token.m */; };
 		62DD20331D3F9348BD620FF9 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C915B5BA4622FB528E7 /* Filter.m */; };
-		62DD20890CCC11A4FEF47FAA /* ItemFilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */; };
+		62DD20890CCC11A4FEF47FAA /* FilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* FilterList.m */; };
 		62DD2092A79ECA814D645748 /* ServiceProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD22B0E63409D33BF999BA /* ServiceProfile.m */; };
 		62DD217A2ED9E3D4963827E8 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26C05174E64DA47C31AC /* Location.m */; };
 		62DD219E59DA875640047728 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26E909FCD22D0A64EE4F /* Task.m */; };
@@ -47,7 +47,7 @@
 		62DD2C0AEA2631C3459DADE1 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26BAF1D4A9788CAD03B8 /* JSON.m */; };
 		62DD2C3DD678C7FBF496B136 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26640BDA5009B7A90066 /* DataSource.m */; };
 		62DD2C577B6653314F227A74 /* ItemReadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD274357C9ACF556E9E9EA /* ItemReadTask.m */; };
-		62DD2C697902FE94BA6ABDDD /* ItemFilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */; };
+		62DD2C697902FE94BA6ABDDD /* FilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* FilterList.m */; };
 		62DD2CD9FE16F504F12B0313 /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2AA5D104A2D5AC32EAB9 /* DateParser.m */; };
 		62DD2CE6A3C205F83469947A /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26E909FCD22D0A64EE4F /* Task.m */; };
 		62DD2D2211F9649182E6F1E4 /* ImageFetchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CC04928BA986A6B8295 /* ImageFetchTask.m */; };
@@ -91,12 +91,12 @@
 		301FE20E2352B033DE801C81 /* Pods-EpicGlueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicGlueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpicGlueTests/Pods-EpicGlueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62DD20372E7625EE80EC68AD /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
 		62DD204CD08D2AEB3BE2B068 /* ItemListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListManager.h; sourceTree = "<group>"; };
-		62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemFilterList.m; sourceTree = "<group>"; };
+		62DD2056DD4EB59F5C91DED6 /* FilterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterList.m; sourceTree = "<group>"; };
 		62DD20F0DA8D85A68E21C234 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		62DD20F939C49300E1D5ED4F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		62DD21035E6AEEC8C0C9C1C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EpicGlue/AppDelegate.h; sourceTree = "<group>"; };
 		62DD22428AFDA4B5F2094370 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		62DD226FAE71F467E437D1AA /* ItemFilterList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemFilterList.h; sourceTree = "<group>"; };
+		62DD226FAE71F467E437D1AA /* FilterList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterList.h; sourceTree = "<group>"; };
 		62DD2292567D5D6B3841ED7A /* ItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemList.m; sourceTree = "<group>"; };
 		62DD22B0E63409D33BF999BA /* ServiceProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProfile.m; sourceTree = "<group>"; };
 		62DD23BD03AD3C7E4C135ADF /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
@@ -336,8 +336,8 @@
 				62DD2D57328CC7828191112F /* ItemList.h */,
 				62DD2C915B5BA4622FB528E7 /* Filter.m */,
 				62DD2E7276A0E529F3FA288F /* Filter.h */,
-				62DD2056DD4EB59F5C91DED6 /* ItemFilterList.m */,
-				62DD226FAE71F467E437D1AA /* ItemFilterList.h */,
+				62DD2056DD4EB59F5C91DED6 /* FilterList.m */,
+				62DD226FAE71F467E437D1AA /* FilterList.h */,
 				62DD26C05174E64DA47C31AC /* Location.m */,
 				62DD2E42D2759115D76A998E /* Location.h */,
 				62DD2F870EAB667B17D182F2 /* Common */,
@@ -633,7 +633,7 @@
 				62DD288B02B7DB13CB7332F1 /* UserStat.m in Sources */,
 				62DD2BB2373714767E8BCBA6 /* ItemList.m in Sources */,
 				62DD20331D3F9348BD620FF9 /* Filter.m in Sources */,
-				62DD2C697902FE94BA6ABDDD /* ItemFilterList.m in Sources */,
+				62DD2C697902FE94BA6ABDDD /* FilterList.m in Sources */,
 				62DD2E12383F968FC2AF2026 /* Location.m in Sources */,
 				62DD225741567C902B0F743E /* Connector.m in Sources */,
 				62DD2B9FC290A7D1A447B828 /* DateParser.m in Sources */,
@@ -667,7 +667,7 @@
 				62DD2ED1D3E1DCA5BE9C0721 /* UserStat.m in Sources */,
 				62DD2EC02A705EF24A455132 /* ItemList.m in Sources */,
 				62DD226EBB645CA77189E6FF /* Filter.m in Sources */,
-				62DD20890CCC11A4FEF47FAA /* ItemFilterList.m in Sources */,
+				62DD20890CCC11A4FEF47FAA /* FilterList.m in Sources */,
 				62DD217A2ED9E3D4963827E8 /* Location.m in Sources */,
 				62DD2CD9FE16F504F12B0313 /* DateParser.m in Sources */,
 				62DD2C0AEA2631C3459DADE1 /* JSON.m in Sources */,

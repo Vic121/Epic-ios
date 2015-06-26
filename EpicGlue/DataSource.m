@@ -5,7 +5,7 @@
 
 #import "DataSource.h"
 #import "Filter.h"
-#import "ItemFilterList.h"
+#import "FilterList.h"
 #import "ItemList.h"
 #import "Item.h"
 #import "URL.h"
@@ -16,7 +16,7 @@
 
 @private
     Filter *_mainFilter;
-    ItemFilterList *_additionalFilters;
+    FilterList *_additionalFilters;
 }
 @synthesize mainFilter = _mainFilter;
 @synthesize additionalFilters = _additionalFilters;
@@ -28,7 +28,7 @@
     return ds;
 }
 
-+ (DataSource *)initWithFilters:(Filter *)filter and:(ItemFilterList *)list {
++ (DataSource *)initWithFilters:(Filter *)filter and:(FilterList *)list {
     DataSource *ds = [DataSource instance];
     ds.mainFilter = filter;
     ds.additionalFilters = list;
