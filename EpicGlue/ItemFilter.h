@@ -11,9 +11,9 @@
 
 @interface ItemFilter : NSObject
 
-@property(readonly) Service *service;
-@property(readonly) Subscription *subscription;
-@property(readonly) NSString *key;
-@property(readonly) NSString *value;
+@property(nonatomic) Service *service;
+@property(nonatomic) Subscription *subscription;
+@property(nonatomic) NSString *key;
+@property(nonatomic) NSString *value;
 
 @end

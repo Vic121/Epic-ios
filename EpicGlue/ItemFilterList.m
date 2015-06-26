@@ -14,12 +14,19 @@
 }
 @synthesize list = _list;
 
-- (void)addFilter:(ItemFilter *)filter {
-    [self.list addObject:filter];
++ (ItemFilterList *)initWithFilters:(NSArray *)filters {
+    ItemFilterList *list = [[ItemFilterList alloc] init];
+    list.list = filters;
+
+    return list;
 }
 
 - (NSArray *)getList {
     return [NSArray arrayWithArray:self.list];
+}
+
+- (int)count {
+    return [self.list count];
 }
 
 

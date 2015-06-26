@@ -5,7 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class JSON;
 @class ItemFilterList;
 @class Item;
 
@@ -20,6 +19,7 @@
 - (void)addItem:(Item *)item;
 
 - (NSArray *)getList;
+- (int)count;
 //-()fetch;
 
 @end

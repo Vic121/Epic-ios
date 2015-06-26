@@ -7,14 +7,13 @@
 
 @class Service;
 @class User;
-@class JSON;
 
 
 @interface UserSocialProfile : NSObject
 
 @property(readonly) User *user;
 @property(readonly) Service *service;
-@property(readonly) JSON *jsonProfile;
+@property(readonly) NSDictionary *jsonProfile;
 @property(readonly) BOOL isActive;
 @property(readonly) NSDate *createdAt;
 @property(readonly) NSDate *updatedAt;

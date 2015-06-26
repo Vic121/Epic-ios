@@ -10,20 +10,23 @@
 #import "Subscription.h"
 #import "Service.h"
 #import "Item.h"
-
-NSString *const API_URL = @"http://localhost:7000/";
-NSString *const PAGINATE_BEFORE = @"before";
-NSString *const PAGINATE_AFTER = @"after";
+#import "Connector.h"
+#import "URL.h"
+#import "ItemFilterList.h"
 
 @implementation ItemListManager {
 
 @private
     DataSource *_dataSource;
     ItemList *_currentItemList;
+    BOOL _inProgress;
+    Connector *_conn;
 }
 
 @synthesize dataSource = _dataSource;
 @synthesize currentItemList = _currentItemList;
+@synthesize inProgress = _inProgress;
+@synthesize conn = _conn;
 
 + (ItemListManager *)instance {
     static ItemListManager *_instance = nil;
@@ -31,74 +34,23 @@ NSString *const PAGINATE_AFTER = @"after";
     @synchronized (self) {
         if (_instance == nil) {
             _instance = [[self alloc] init];
+            _instance.conn = [Connector instance];
         }
     }
 
     return _instance;
 }
 
-- (ItemList *)getItems:(ItemFilter *)filter {
-    ItemList *itemList = [ItemList instance];
++ (ItemListManager *)initWithDataSource:(DataSource *)ds {
+    ItemListManager *manager = [ItemListManager instance];
+    manager.dataSource = ds;
 
-    [self sendGET:[self buildURL:filter] success:^(NSDictionary *source) {
-        NSLog(@"success");
-
-        if ([source objectForKey:@"error"] != nil) {
-
-        }
-
-        for (NSDictionary *json in [source objectForKey:@"data"]) {
-            Item *item = [Item fromJSON:json];
-
-            if (item == nil) {
-                NSLog(@"item failed from url %@", json);
-                continue;
-            }
-
-            [itemList addItem:item];
-        }
-
-        NSLog(@"Added %d items", [[itemList getList] count]);
-    }     failure:^(NSError *error) {
-        NSLog(@"fail");
-    }];
-    
-    return itemList;
-}
-
-- (void)sendGET:(NSURL *)url success:(void (^)(NSDictionary *))success failure:(void (^)(NSError *))failure {
-
-}
-
-- (NSURL *)buildURL:(ItemFilter *)filter {
-    NSString *url = nil;
-
-    if (filter == nil) {
-        url = [NSString stringWithFormat:@"%s/items", API_URL];
-    }
-    else if (filter.subscription == nil) {
-        url = [NSString stringWithFormat:@"sub/%d", filter.subscription.subscriptionId];
-    }
-    else {
-        url = [NSString stringWithFormat:@"service/%s", filter.service.shortName];
-    }
-
-    // TODO support k,v
-
-    return [NSURL URLWithString:url];
-}
-
-- (NSURL *)buildURL:(ItemFilter *)filter withPagination:(NSString *)paginatorName token:(NSString *)paginatorToken {
-    if ([paginatorName isEqualToString:PAGINATE_BEFORE] || [paginatorName isEqualToString:PAGINATE_AFTER]) {
-        return [NSURL URLWithString:[NSString stringWithFormat:@"?%s=%s", paginatorName, paginatorToken] relativeToURL:[self buildURL:filter]];
-    }
-
-    return [self buildURL:filter];
+    return manager;
 }
 
 
-- (void)switchItemList:(ItemList *)list {
-
+- (ItemList *)getItems {
+    return [self.dataSource fetch];
 }
 
 - (BOOL)loadEalier {
@@ -110,14 +62,20 @@ NSString *const PAGINATE_AFTER = @"after";
 }
 
 - (BOOL)reload {
+    self.inProgress = TRUE;
+    // build url
+    // fetch and build items
+    // replace item list
+    // start caching items
+
+    // TODO: nextToken, prevToken, nextURL, prevURL
+    // TODO: should act as data source
     return NO;
 }
 
 
 - (void)newDataSource:(DataSource *)data {
     self.dataSource = data;
-
-
 }
 
 

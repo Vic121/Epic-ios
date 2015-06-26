@@ -4,9 +4,87 @@
 //
 
 #import "DataSource.h"
+#import "ItemFilter.h"
+#import "ItemFilterList.h"
+#import "ItemList.h"
+#import "Item.h"
+#import "URL.h"
+#import "Connector.h"
 
 
 @implementation DataSource {
 
+@private
+    ItemFilter *_mainFilter;
+    ItemFilterList *_additionalFilters;
 }
+@synthesize mainFilter = _mainFilter;
+@synthesize additionalFilters = _additionalFilters;
+
++ (DataSource *)initWithFilter:(ItemFilter *)filter {
+    DataSource *ds = [DataSource instance];
+    ds.mainFilter = filter;
+
+    return ds;
+}
+
++ (DataSource *)initWithFilters:(ItemFilter *)filter and:(ItemFilterList *)list {
+    DataSource *ds = [DataSource instance];
+    ds.mainFilter = filter;
+    ds.additionalFilters = list;
+
+    return ds;
+}
+
++ (DataSource *)instance {
+    static DataSource *_instance = nil;
+
+    @synchronized (self) {
+        if (_instance == nil) {
+            _instance = [[self alloc] init];
+        }
+    }
+
+    return _instance;
+}
+
+- (ItemList *)fetch {
+    Connector *conn = [Connector instance];
+    ItemList *itemList = [ItemList instance];
+
+    [conn sendGET:[URL getByDataSource:self] success:^(NSDictionary *source) {
+        ItemList *itemList = [ItemList instance];
+
+        NSLog(@"success");
+
+        if ([source objectForKey:@"error"] != nil) {
+            NSLog(@"%@", source);
+            return;
+        }
+
+//        NSLog(@"%@", source);
+
+        for (NSDictionary *json in [source objectForKey:@"data"]) {
+            Item *item = [Item fromJSON:json];
+
+            if (item == nil) {
+                NSLog(@"item failed from url %@", json);
+                continue;
+            }
+            else {
+                NSLog(@"added %@", item.itemId);
+            }
+
+            [itemList addItem:item];
+            NSLog(@"Has %d items", [itemList count]);
+        }
+
+        NSLog(@"Added %d items", [itemList count]);
+    }     failure:^(NSError *error) {
+        NSLog(@"fail");
+    }];
+
+    return itemList;
+}
+
 @end

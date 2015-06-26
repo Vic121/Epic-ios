@@ -5,14 +5,22 @@
 
 #import <Foundation/Foundation.h>
 
-@class Source;
-@class Subscription;
+@class ItemFilter;
+@class ItemFilterList;
+@class ItemList;
 
 
 @interface DataSource : NSObject
 
-@property Source *source;
-@property Subscription *subscription;
+@property (nonatomic) ItemFilter *mainFilter;
+@property (nonatomic) ItemFilterList *additionalFilters;
 
++ (DataSource *)instance;
++ (DataSource *)initWithFilter:(ItemFilter *)filter;
++ (DataSource *)initWithFilters:(ItemFilter *)filter and:(ItemFilterList *)list;
+
+
+
+- (ItemList *)fetch;
 
 @end

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ItemListManager.h"
 #import "ItemList.h"
+#import "DataSource.h"
 
 @interface AppDelegate ()
 
@@ -18,10 +19,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ItemList *itemList = [ItemList instance];
-
-    ItemListManager *itemManager = [ItemListManager instance];
-    [itemManager setCurrentItemList:itemList];
+    ItemListManager *itemManager = [ItemListManager initWithDataSource:[DataSource instance]];
+    [itemManager getItems];
+    
+    NSLog(@"launched");
 
     return YES;
 }

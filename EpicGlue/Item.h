@@ -6,37 +6,39 @@
 #import <Foundation/Foundation.h>
 
 @class ItemCell;
-@class JSON;
 
 
 @interface Item : NSObject
 
-@property(readonly) NSString *itemId;
-@property(readonly) NSString *author;
-@property(readonly) NSString *authorImage;
-@property(readonly) NSString *authorImageLarge;
-@property(readonly) NSString *image;
-@property(readonly) NSString *imageSmall;
-@property(readonly) NSString *imageLarge;
-@property(readonly) NSString *itemType;
-@property(readonly) NSString *mediaType;
-@property(readonly) NSString *service;
-@property(readonly) NSString *title;
-@property(readonly) NSString *description;
-@property(readonly) NSString *url;
-@property(readonly) NSArray *tags;
+@property(nonatomic) NSString *itemId;
+@property(nonatomic) NSString *author;
+@property(nonatomic) NSString *authorImage;
+@property(nonatomic) NSString *authorImageLarge;
+@property(nonatomic) NSString *image;
+@property(nonatomic) NSString *imageSmall;
+@property(nonatomic) NSString *imageLarge;
+@property(nonatomic) NSString *itemType;
+@property(nonatomic) NSString *mediaType;
+@property(nonatomic) NSString *service;
+@property(nonatomic) NSString *title;
+@property(nonatomic) NSString *description;
+@property(nonatomic) NSString *url;
+@property(nonatomic) NSArray *tags;
 @property(nonatomic) BOOL isRead;
 @property(nonatomic) BOOL hasPin;
-@property(readonly) float lat;
-@property(readonly) float lon;
-@property(readonly) NSString *locationName;
-@property(readonly) int points;
-@property(readonly) int comments;
-@property(readonly) NSDate *contentCreatedAt;
-@property(readonly) NSDate *createdAt;
-@property(readonly) NSDate *updatedAt;
+@property(nonatomic) float lat;
+@property(nonatomic) float lon;
+@property(nonatomic) NSString *locationName;
+@property(nonatomic) int points;
+@property(nonatomic) int comments;
+@property(nonatomic) NSDate *contentCreatedAt;
+@property(nonatomic) NSDate *createdAt;
+@property(nonatomic) NSDate *updatedAt;
 
-+ (Item *)fromJSON:(JSON *)json;
++ (Item *)fromJSON:(NSDictionary *)json;
+
++ (Item *)instance;
+
 
 - (NSString *)getCellIdentifier;
 

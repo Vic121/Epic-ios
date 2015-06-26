@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Connector : NSObject
++ (Connector *)instance;
+
 
 - (NSDictionary *)sendGET:(NSString *)url
                   success:(void (^)(NSDictionary *json))success

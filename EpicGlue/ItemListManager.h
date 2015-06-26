@@ -8,25 +8,23 @@
 @class ItemList;
 @class DataSource;
 @class ItemFilter;
-
-FOUNDATION_EXPORT NSString *const API_URL;
-FOUNDATION_EXPORT NSString *const PAGINATE_BEFORE;
-FOUNDATION_EXPORT NSString *const PAGINATE_AFTER;
+@class Connector;
+@class URL;
+@class ItemFilterList;
 
 @interface ItemListManager : NSObject
 
+@property (nonatomic) Connector *conn;
+@property (nonatomic) URL *url;
+@property (nonatomic) ItemFilterList *filterList;
 @property ItemList *currentItemList;
 @property DataSource *dataSource;
+@property (nonatomic) BOOL inProgress;
 
 + (ItemListManager *)instance;
++ (ItemListManager *)initWithDataSource:(DataSource *)ds;
 
-- (ItemList *)getItems:(ItemFilter *)filter;
-
-- (NSURL *)buildURL:(ItemFilter *)filter;
-
-- (NSURL *)buildURL:(ItemFilter *)filter withPagination:(NSString *)paginatorName token:(NSString *)paginatorToken;
-
-- (void)switchItemList:(ItemList *)list;
+- (ItemList *)getItems;
 
 - (BOOL)loadEalier;
 

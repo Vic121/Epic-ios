@@ -33,5 +33,8 @@
     return self.list;
 }
 
+- (int)count {
+    return [self.list count];
+}
 
 @end

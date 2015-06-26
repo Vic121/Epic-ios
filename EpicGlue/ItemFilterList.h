@@ -10,10 +10,11 @@
 
 @interface ItemFilterList : NSObject
 
-@property(nonatomic) NSMutableArray *list;
+@property(nonatomic) NSArray *list;
 
-- (void)addFilter:(ItemFilter *)filter;
++ (ItemFilterList *)initWithFilters:(NSArray *)filters;
 
 - (NSArray *)getList;
+- (int) count;
 
 @end

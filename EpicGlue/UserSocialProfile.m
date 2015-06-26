@@ -6,7 +6,6 @@
 #import "UserSocialProfile.h"
 #import "Service.h"
 #import "User.h"
-#import "JSON.h"
 
 
 @implementation UserSocialProfile {
@@ -14,7 +13,7 @@
 @private
     User *_user;
     Service *_service;
-    JSON *_jsonProfile;
+    NSDictionary *_jsonProfile;
     BOOL _isActive;
     NSDate *_createdAt;
     NSDate *_updatedAt;

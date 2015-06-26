@@ -61,7 +61,7 @@
 @synthesize createdAt = _createdAt;
 @synthesize updatedAt = _updatedAt;
 
-+ (Item *)fromJSON:(JSON *)json {
++ (Item *)instance {
     static Item *_instance = nil;
 
     @synchronized (self) {
@@ -70,9 +70,41 @@
         }
     }
 
-//    _instance.itemId = [json objectForKey:@"item_id"];
-
     return _instance;
+}
++ (Item *)fromJSON:(NSDictionary *)j {
+//    NSLog(@"%@", j);
+
+    Item *i = [Item instance];
+
+    i.itemId = [j objectForKey:@"id"];
+    i.author = [j objectForKey:@"author"];
+    i.authorImage = [j objectForKey:@"author_image"];
+    i.authorImageLarge = [j objectForKey:@"author_image_large"];
+    i.image = [j objectForKey:@"image"];
+    i.imageSmall = [j objectForKey:@"image_small"];
+    i.imageLarge = [j objectForKey:@"image_large"];
+    i.itemType = [j objectForKey:@"item_type"];
+    i.mediaType = [j objectForKey:@"media_type"];
+    i.service = [j objectForKey:@"service"];
+    i.title = [j objectForKey:@"title"];
+    i.description = [j objectForKey:@"description"];
+    i.url = [j objectForKey:@"url"];
+    i.points = [j objectForKey:@"points"];
+    i.comments = [j objectForKey:@"comments"];
+    i.tags = [j objectForKey:@"tags"];
+    i.locationName = [j objectForKey:@"location_name"];
+    i.createdAt = [j objectForKey:@"created_at"];
+    i.updatedAt = [j objectForKey:@"updated_at"];
+
+    if ([j objectForKey:@"lat"] != nil) {
+        i.lat = [[j objectForKey:@"lat"] floatValue];
+    }
+    if ([j objectForKey:@"lon"] != nil) {
+        i.lat = [[j objectForKey:@"lon"] floatValue];
+    }
+
+    return i;
 }
 
 - (NSString *)getCellIdentifier {
