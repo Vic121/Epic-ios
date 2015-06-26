@@ -26,6 +26,10 @@
 }
 
 - (void)addItem:(Item *)item {
+    if (self.list == nil) {
+        self.list = [NSMutableArray array];
+    }
+
     [self.list addObject:item];
 }
 
