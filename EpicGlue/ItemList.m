@@ -19,6 +19,7 @@
     @synchronized (self) {
         if (_instance == nil) {
             _instance = [[self alloc] init];
+            _instance.list = [NSMutableArray array];
         }
     }
 
@@ -26,11 +27,11 @@
 }
 
 - (void)addItem:(Item *)item {
-    if (self.list == nil) {
-        self.list = [NSMutableArray array];
-    }
-
     [self.list addObject:item];
+}
+
+- (Item *)getItemAtIndex:(int)index {
+    return [self.list objectAtIndex:index];
 }
 
 - (NSArray *)getList {

@@ -8,16 +8,21 @@
 
 #import "TitleCell.h"
 
-@implementation TitleCell
+@implementation TitleCell {
+@private
+    UILabel *_title;
+}
 
-//- (id)initWithFrame:(CGRect)frame
-//{
-//    self = [super initWithFrame:frame];
-//    if (self) {
-//        
-//    }
-//    return self;
-//}
+@synthesize title = _title;
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+
+    }
+    return self;
+}
 
 - (UIView *)getContent
 {
@@ -25,11 +30,10 @@
     
 //    NSLog(@"%@--%@", self.model.title, self.model.desc);
     
-    UITextView *title = [[UITextView alloc] initWithFrame:CGRectMake(0, 10, WIDTH, 100)];
-//    title.text = self.model.title;
-    
-    [view addSubview:title];
-    //    [view bringSubviewToFront:title];
+    self.title = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, 100)];
+
+    [view addSubview:self.title];
+    [view bringSubviewToFront:self.title];
     
     [view setBackgroundColor:[UIColor magentaColor]];
     return view;

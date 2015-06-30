@@ -10,6 +10,7 @@
 #import "Item.h"
 #import "URL.h"
 #import "Connector.h"
+#import "ItemCollectionViewController.h"
 
 
 @implementation DataSource {
@@ -17,9 +18,14 @@
 @private
     Filter *_mainFilter;
     FilterList *_additionalFilters;
+    ItemList *_itemList;
 }
 @synthesize mainFilter = _mainFilter;
 @synthesize additionalFilters = _additionalFilters;
+@synthesize itemList = _itemList;
+
+#pragma mark -
+#pragma mark init
 
 + (DataSource *)initWithFilter:(Filter *)filter {
     DataSource *ds = [DataSource instance];
@@ -42,19 +48,19 @@
     @synchronized (self) {
         if (_instance == nil) {
             _instance = [[self alloc] init];
+            _instance.itemList = [ItemList instance];
         }
     }
 
     return _instance;
 }
 
-- (ItemList *)fetch {
+#pragma mark data
+
+- (void)fetch {
     Connector *conn = [Connector instance];
-    ItemList *itemList = [ItemList instance];
 
     [conn sendGET:[URL getByDataSource:self] success:^(NSDictionary *source) {
-        ItemList *itemList = [ItemList instance];
-
         if ([source objectForKey:@"error"] != nil) {
             NSLog(@"%@", source);
             return;
@@ -68,15 +74,26 @@
                 continue;
             }
 
-            [itemList addItem:item];
+            [self.itemList addItem:item];
         }
 
-        NSLog(@"Added %d items", [itemList count]);
+        NSLog(@"Added %d items", [self.itemList count]);
+
+        [[NSNotificationCenter defaultCenter] postNotificationName:NewItemsNotification object:nil];
+
     }     failure:^(NSError *error) {
         NSLog(@"fail");
     }];
+}
 
-    return itemList;
+# pragma mark data source
+
+- (int)itemsCount {
+    return [self.itemList count];
+}
+
+- (Item *)itemAtIndex:(int)index {
+    return [self.itemList getItemAtIndex:index];
 }
 
 @end

@@ -18,6 +18,8 @@
 
 - (void)addItem:(Item *)item;
 
+- (Item *)getItemAtIndex:(int)index;
+
 - (NSArray *)getList;
 - (int)count;
 //-()fetch;

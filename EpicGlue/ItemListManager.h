@@ -24,8 +24,6 @@
 + (ItemListManager *)instance;
 + (ItemListManager *)initWithDataSource:(DataSource *)ds;
 
-- (ItemList *)getItems;
-
 - (BOOL)loadEalier;
 
 - (BOOL)loadLater;

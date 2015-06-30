@@ -17,6 +17,9 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setBackgroundColor:[UIColor whiteColor]];
+        [self addSubview:[self getHeader]];
+        [self addSubview:[self getContent]];
+        [self addSubview:[self getFooter]];
     }
     return self;
 }

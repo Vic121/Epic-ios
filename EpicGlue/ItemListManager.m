@@ -42,9 +42,8 @@
     return manager;
 }
 
-
-- (ItemList *)getItems {
-    return [self.dataSource fetch];
+- (int)count {
+    return [[self.dataSource itemList] count];
 }
 
 - (BOOL)loadEalier {

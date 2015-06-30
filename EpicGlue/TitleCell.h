@@ -10,4 +10,6 @@
 
 @interface TitleCell : ItemCell
 
+@property (nonatomic) UILabel *title;
+
 @end

@@ -108,12 +108,7 @@
 }
 
 - (NSString *)getCellIdentifier {
-    return nil;
+    return @"cell_with_title";
 }
-
-- (ItemCell *)getCell {
-    return nil;
-}
-
 
 @end

@@ -13,6 +13,12 @@
 #import "ImageCell.h"
 #import "ImageWithTitleCell.h"
 #import "ItemListManager.h"
+#import "VideoCell.h"
+#import "VideoWithTitleCell.h"
+#import "DataSource.h"
+#import "ItemList.h"
+
+NSString * const NewItemsNotification = @"NewItemsNotification";
 
 @interface ItemCollectionViewController ()
 
@@ -22,6 +28,8 @@
 
 @synthesize itemListManager;
 
+#pragma mark ItemListManager
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -29,20 +37,28 @@
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[TitleCell class] forCellWithReuseIdentifier:@"title_cell"];
-    [self.collectionView registerClass:[TitleWithDescriptionCell class] forCellWithReuseIdentifier:@"title_with_description_cell"];
-    [self.collectionView registerClass:[ImageCell class] forCellWithReuseIdentifier:@"image_cell"];
-    [self.collectionView registerClass:[ImageWithTitleCell class] forCellWithReuseIdentifier:@"image_with_title_cell"];
+    [self.collectionView registerClass:[TitleCell class] forCellWithReuseIdentifier:@"cell_with_title"];
+    [self.collectionView registerClass:[TitleWithDescriptionCell class] forCellWithReuseIdentifier:@"cell_with_title_and_description"];
+    [self.collectionView registerClass:[ImageCell class] forCellWithReuseIdentifier:@"cell_with_image"];
+    [self.collectionView registerClass:[ImageWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_image_and_title"];
+    [self.collectionView registerClass:[VideoCell class] forCellWithReuseIdentifier:@"cell_with_video"];
+    [self.collectionView registerClass:[VideoWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_video_and_title"];
 
-    itemListManager = [ItemListManager instance];
-//    [itemManager fetchItems:^{
-//        [self.collectionView reloadData];
-//
-//        NSLog(@"collection reloaded");
-//        NSLog(@"%d", itemListManager.items.count);
-//    } onFailure:^ {
-//
-//    }];
+    [[NSNotificationCenter defaultCenter] addObserverForName:NewItemsNotification
+                                                      object:nil
+                                                       queue:nil
+                                                  usingBlock:^(NSNotification *notification)
+    {
+        NSLog(@"items=%d", [self.itemListManager.dataSource.itemList count]);
+        [self.collectionView reloadData];
+    }];
+
+    self.itemListManager = [ItemListManager initWithDataSource:[DataSource instance]];
+    [self.itemListManager.dataSource fetch];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NewItemsNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,28 +82,23 @@
     return 1;
 }
 
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
-    return 0;
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return [self.itemListManager.dataSource itemsCount];
 }
 
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (ItemCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-//    ItemModel *model = [itemManager.items objectAtIndex:indexPath.item];
+    Item *model = [self.itemListManager.dataSource.itemList getItemAtIndex:indexPath.item];
+
+    NSLog(@"%@", [model getCellIdentifier]);
     
-//    NSLog(@"%@", model.mediaType);
-    
-//    ItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:model.mediaType forIndexPath:indexPath];
-//    NSLog(@"%@ for %d", model, indexPath.item);
-//    cell.model = model;
-//    [cell.contentView addSubview:[cell getContent]];
-    
-//    [cell.contentView addSubview:[cell getHeader]];
-//    [cell.contentView addSubview:[cell getContent]];
-//    [cell.contentView addSubview:[cell getFooter]];
-    
-    return nil;
+    TitleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[model getCellIdentifier] forIndexPath:indexPath];
+    [cell.title setText:model.title];
+
+    NSLog(@"%@ for %d", cell.item, indexPath.item);
+
+    return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

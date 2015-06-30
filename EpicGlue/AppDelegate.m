@@ -18,9 +18,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ItemListManager *itemManager = [ItemListManager initWithDataSource:[DataSource instance]];
-    [itemManager getItems];
-    
     return YES;
 }
 
