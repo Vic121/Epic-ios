@@ -90,8 +90,8 @@
     i.title = [j objectForKey:@"title"];
     i.description = [j objectForKey:@"description"];
     i.url = [j objectForKey:@"url"];
-    i.points = [j objectForKey:@"points"];
-    i.comments = [j objectForKey:@"comments"];
+    i.points = (int) [j objectForKey:@"points"];
+    i.comments = (int) [j objectForKey:@"comments"];
     i.tags = [j objectForKey:@"tags"];
     i.locationName = [j objectForKey:@"location_name"];
     i.createdAt = [j objectForKey:@"created_at"];
