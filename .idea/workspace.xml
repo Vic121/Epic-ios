@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Progress">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoCell.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoCell.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoWithTitleCell.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoWithTitleCell.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Item.m" afterPath="$PROJECT_DIR$/EpicGlue/Item.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
