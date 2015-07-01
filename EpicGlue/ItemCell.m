@@ -39,13 +39,6 @@
     return self;
 }
 
-//- (void)prepareForReuse {
-//    [self.CommentCount setText:@"0"];
-//    [self.LikeCount setText:@"0"];
-//    [self.Author setText:@""];
-//    [self.Date setText:@"now"];
-//}
-
 - (void)setContent:(Item *)item {
     [self.CommentCount setText:[NSString stringWithFormat:@"%d", item.comments]];
     [self.LikeCount setText:[NSString stringWithFormat:@"%d", item.points]];

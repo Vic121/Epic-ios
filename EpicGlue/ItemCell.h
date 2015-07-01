@@ -24,6 +24,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *Date;
 
 - (void)setContent:(Item *)item;
-- (UITextView *)applyToTextView:(UITextView *)textView HTML:(NSString *)htmlString;
 
 @end

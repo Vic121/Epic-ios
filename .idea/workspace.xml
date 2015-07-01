@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Progress">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/EpicGlue/XCell.xib" afterPath="$PROJECT_DIR$/EpicGlue/TitleCell.xib" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/TitleWithDescriptionCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoCell.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoWithTitleCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/EpicGlue/VideoWithTitleCell.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DataSource.m" afterPath="$PROJECT_DIR$/EpicGlue/DataSource.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Item.m" afterPath="$PROJECT_DIR$/EpicGlue/Item.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.h" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCell.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCell.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemList.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemList.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +43,8 @@
       <file leaf-file-name="ItemCollectionViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47799698" vertical-offset="900" max-vertical-offset="2025">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.1138088" vertical-offset="571" max-vertical-offset="2025">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +101,6 @@
         <option value="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemListManager.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemListManager.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
         <option value="$PROJECT_DIR$/EpicGlue/TitleCell.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCell.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCell.m" />
@@ -109,6 +110,7 @@
         <option value="$PROJECT_DIR$/EpicGlue/ItemList.m" />
         <option value="$PROJECT_DIR$/EpicGlue/DataSource.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
       </list>
     </option>
   </component>
@@ -158,6 +160,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="EpicGlue" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpicGlue" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -845,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79514414" vertical-offset="781" max-vertical-offset="1440">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCell.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -918,10 +926,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/TitleCell.xib">
+      <provider selected="true" editor-type-id="appcode-designer">
+        <state ui-designer-zoom="1.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52200305" vertical-offset="706" max-vertical-offset="1440">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47799698" vertical-offset="900" max-vertical-offset="2025">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.1138088" vertical-offset="571" max-vertical-offset="2025">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>

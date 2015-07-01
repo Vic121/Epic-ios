@@ -73,9 +73,6 @@
 		EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EE21AB45F3600B22EF6 /* ItemCell.m */; };
 		EAF2FE361B426F970052A977 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF2FE351B426F970052A977 /* TitleCell.xib */; };
 		EAF2FE3F1B43C1750052A977 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2FE381B43C1750052A977 /* TitleCell.m */; };
-		EAF2FE401B43C1750052A977 /* TitleWithDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2FE3A1B43C1750052A977 /* TitleWithDescriptionCell.m */; };
-		EAF2FE411B43C1750052A977 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2FE3C1B43C1750052A977 /* VideoCell.m */; };
-		EAF2FE421B43C1750052A977 /* VideoWithTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2FE3E1B43C1750052A977 /* VideoWithTitleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,12 +168,6 @@
 		EAF2FE351B426F970052A977 /* TitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		EAF2FE371B43C1750052A977 /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
 		EAF2FE381B43C1750052A977 /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
-		EAF2FE391B43C1750052A977 /* TitleWithDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleWithDescriptionCell.h; sourceTree = "<group>"; };
-		EAF2FE3A1B43C1750052A977 /* TitleWithDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleWithDescriptionCell.m; sourceTree = "<group>"; };
-		EAF2FE3B1B43C1750052A977 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
-		EAF2FE3C1B43C1750052A977 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
-		EAF2FE3D1B43C1750052A977 /* VideoWithTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWithTitleCell.h; sourceTree = "<group>"; };
-		EAF2FE3E1B43C1750052A977 /* VideoWithTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWithTitleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,12 +397,6 @@
 			children = (
 				EAF2FE371B43C1750052A977 /* TitleCell.h */,
 				EAF2FE381B43C1750052A977 /* TitleCell.m */,
-				EAF2FE391B43C1750052A977 /* TitleWithDescriptionCell.h */,
-				EAF2FE3A1B43C1750052A977 /* TitleWithDescriptionCell.m */,
-				EAF2FE3B1B43C1750052A977 /* VideoCell.h */,
-				EAF2FE3C1B43C1750052A977 /* VideoCell.m */,
-				EAF2FE3D1B43C1750052A977 /* VideoWithTitleCell.h */,
-				EAF2FE3E1B43C1750052A977 /* VideoWithTitleCell.m */,
 				EA544EE11AB45F3600B22EF6 /* ItemCell.h */,
 				EA544EE21AB45F3600B22EF6 /* ItemCell.m */,
 				EAF2FE351B426F970052A977 /* TitleCell.xib */,
@@ -608,10 +593,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF2FE3F1B43C1750052A977 /* TitleCell.m in Sources */,
-				EAF2FE411B43C1750052A977 /* VideoCell.m in Sources */,
 				EA320A5D1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld in Sources */,
 				EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */,
-				EAF2FE421B43C1750052A977 /* VideoWithTitleCell.m in Sources */,
 				EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */,
 				EA453FFD1AB4A2BF00C7248D /* MasonryItemCollectionLayout.m in Sources */,
 				EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */,
@@ -642,7 +625,6 @@
 				62DD2B9FC290A7D1A447B828 /* DateParser.m in Sources */,
 				62DD2A4AB8FDE0D1C4D66D78 /* JSON.m in Sources */,
 				62DD2269A2E45E74D6E7A93A /* URL.m in Sources */,
-				EAF2FE401B43C1750052A977 /* TitleWithDescriptionCell.m in Sources */,
 				62DD2B41675970152A4E56DD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
