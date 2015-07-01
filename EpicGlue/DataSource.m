@@ -66,6 +66,8 @@
             return;
         }
 
+        ItemList *newList = [ItemList instance];
+
         for (NSDictionary *json in [source objectForKey:@"data"]) {
             Item *item = [Item fromJSON:json];
 
@@ -74,13 +76,13 @@
                 continue;
             }
 
-            NSLog(@"added %@", item.title);
-            [self.itemList addItem:item];
+//            NSLog(@"added %@", item.author);
+            [newList addItem:json];
         }
 
-        NSLog(@"Added %d items", [self.itemList count]);
+        NSLog(@"Added %d items", [newList count]);
 
-        [[NSNotificationCenter defaultCenter] postNotificationName:NewItemsNotification object:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:NewItemsNotification object:newList];
 
     }     failure:^(NSError *error) {
         NSLog(@"fail");

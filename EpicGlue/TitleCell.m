@@ -19,7 +19,6 @@
     [super setContent:item];
 
     [self.Title setText:item.title];
-//    self.Title = [self applyToTextView:self.Title HTML:self.item.title];
 }
 
 @end

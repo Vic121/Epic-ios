@@ -26,12 +26,12 @@
     return _instance;
 }
 
-- (void)addItem:(Item *)item {
+- (void)addItem:(NSDictionary *)item {
     [self.list addObject:item];
 }
 
 - (Item *)getItemAtIndex:(NSInteger)index {
-    return self.list[(NSUInteger) index];
+    return [Item fromJSON:[self.list objectAtIndex:index]];
 }
 
 - (NSArray *)getList {
