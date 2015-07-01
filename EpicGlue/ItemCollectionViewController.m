@@ -33,16 +33,21 @@ NSString * const NewItemsNotification = @"NewItemsNotification";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    self.collectionView.delegate = self;
+//    self.collectionView.dataSource = self;
+    
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[TitleCell class] forCellWithReuseIdentifier:@"cell_with_title"];
-    [self.collectionView registerClass:[TitleWithDescriptionCell class] forCellWithReuseIdentifier:@"cell_with_title_and_description"];
-    [self.collectionView registerClass:[ImageCell class] forCellWithReuseIdentifier:@"cell_with_image"];
-    [self.collectionView registerClass:[ImageWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_image_and_title"];
-    [self.collectionView registerClass:[VideoCell class] forCellWithReuseIdentifier:@"cell_with_video"];
-    [self.collectionView registerClass:[VideoWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_video_and_title"];
+//    [self.collectionView registerClass:[TitleCell class] forCellWithReuseIdentifier:@"cell_with_title"];
+//    [self.collectionView registerClass:[TitleWithDescriptionCell class] forCellWithReuseIdentifier:@"cell_with_title_and_description"];
+//    [self.collectionView registerClass:[ImageCell class] forCellWithReuseIdentifier:@"cell_with_image"];
+//    [self.collectionView registerClass:[ImageWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_image_and_title"];
+//    [self.collectionView registerClass:[VideoCell class] forCellWithReuseIdentifier:@"cell_with_video"];
+//    [self.collectionView registerClass:[VideoWithTitleCell class] forCellWithReuseIdentifier:@"cell_with_video_and_title"];
+    UINib *nib = [UINib nibWithNibName:@"XCell" bundle:nil];
+    [self.collectionView registerNib:nib forCellWithReuseIdentifier:@"cell_with_title"];
 
     [[NSNotificationCenter defaultCenter] addObserverForName:NewItemsNotification
                                                       object:nil
@@ -89,14 +94,14 @@ NSString * const NewItemsNotification = @"NewItemsNotification";
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (ItemCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    Item *model = [self.itemListManager.dataSource.itemList getItemAtIndex:indexPath.item];
+    Item *model = [self.itemListManager.dataSource itemAtIndex:indexPath.item];
 
     NSLog(@"%@", [model getCellIdentifier]);
-    
-    TitleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[model getCellIdentifier] forIndexPath:indexPath];
-    [cell.title setText:model.title];
 
-    NSLog(@"%@ for %d", cell.item, indexPath.item);
+    TitleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell_with_title" forIndexPath:indexPath];
+    [cell setContent:model];
+
+    NSLog(@"%@ for %ld (%@)", cell.Title.text, (long)indexPath.item, model.title);
 
     return cell;
 }

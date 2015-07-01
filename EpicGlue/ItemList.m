@@ -30,8 +30,8 @@
     [self.list addObject:item];
 }
 
-- (Item *)getItemAtIndex:(int)index {
-    return [self.list objectAtIndex:index];
+- (Item *)getItemAtIndex:(NSInteger)index {
+    return self.list[(NSUInteger) index];
 }
 
 - (NSArray *)getList {

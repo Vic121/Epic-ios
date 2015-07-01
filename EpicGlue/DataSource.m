@@ -74,6 +74,7 @@
                 continue;
             }
 
+            NSLog(@"added %@", item.title);
             [self.itemList addItem:item];
         }
 
@@ -92,7 +93,7 @@
     return [self.itemList count];
 }
 
-- (Item *)itemAtIndex:(int)index {
+- (Item *)itemAtIndex:(NSInteger)index {
     return [self.itemList getItemAtIndex:index];
 }
 

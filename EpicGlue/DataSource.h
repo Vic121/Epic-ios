@@ -8,6 +8,7 @@
 @class Filter;
 @class FilterList;
 @class ItemList;
+@class Item;
 
 
 @interface DataSource : NSObject
@@ -23,4 +24,6 @@
 - (ItemList *)fetch;
 
 - (int)itemsCount;
+- (Item *)itemAtIndex:(NSInteger)index;
+
 @end

@@ -10,6 +10,6 @@
 
 @interface TitleCell : ItemCell
 
-@property (nonatomic) UILabel *title;
+@property (weak, nonatomic) IBOutlet UITextView *Title;
 
 @end

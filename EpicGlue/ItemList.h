@@ -18,7 +18,7 @@
 
 - (void)addItem:(Item *)item;
 
-- (Item *)getItemAtIndex:(int)index;
+- (Item *)getItemAtIndex:(NSInteger)index;
 
 - (NSArray *)getList;
 - (int)count;

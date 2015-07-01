@@ -11,17 +11,19 @@
 #import "Item.h"
 
 #define WIDTH 400
-#define HEAD_HEIGHT 50
-#define FOOT_HEIGHT 50
 
 @interface ItemCell : UICollectionViewCell
 
-@property(nonatomic) Item *item;
+@property (weak, nonatomic) IBOutlet UIImageView *AuthorAvatar;
+@property (weak, nonatomic) IBOutlet UILabel *Author;
+@property (weak, nonatomic) IBOutlet UIImageView *LikeIcon;
+@property (weak, nonatomic) IBOutlet UILabel *LikeCount;
+@property (weak, nonatomic) IBOutlet UIImageView *CommentIcon;
+@property (weak, nonatomic) IBOutlet UILabel *CommentCount;
+@property (weak, nonatomic) IBOutlet UIImageView *ServiceIcon;
+@property (weak, nonatomic) IBOutlet UILabel *Date;
 
-- (UIView *)getHeader;
-- (UIView *)getContent;
-- (UIView *)getFooter;
-
+- (void)setContent:(Item *)item;
 - (UITextView *)applyToTextView:(UITextView *)textView HTML:(NSString *)htmlString;
 
 @end

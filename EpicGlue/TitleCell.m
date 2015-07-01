@@ -10,33 +10,16 @@
 
 @implementation TitleCell {
 @private
-    UILabel *_title;
+    __weak UITextView *_Title;
 }
 
-@synthesize title = _title;
+@synthesize Title = _Title;
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
+- (void)setContent:(Item *)item {
+    [super setContent:item];
 
-    }
-    return self;
-}
-
-- (UIView *)getContent
-{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, 200)];
-    
-//    NSLog(@"%@--%@", self.model.title, self.model.desc);
-    
-    self.title = [[UITextView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, 100)];
-
-    [view addSubview:self.title];
-    [view bringSubviewToFront:self.title];
-    
-    [view setBackgroundColor:[UIColor magentaColor]];
-    return view;
+    [self.Title setText:item.title];
+//    self.Title = [self applyToTextView:self.Title HTML:self.item.title];
 }
 
 @end
