@@ -115,25 +115,27 @@ NSString * const CellWithTitleAndDescription = @"CellWithTitleAndDescription";
 }
 
 - (NSString *)getCellIdentifier {
-
-    if ([self.mediaType isEqualToString:@"video"]) {
-        if (self.title != nil) {
-            return VideoCellWithTitle;
-        }
-        return VideoCell;
-    }
-    else if ([self.mediaType isEqualToString:@"image"]) {
-        if (self.title != nil) {
-            return ImageCellWithTitle;
-        }
-        return ImageCell;
-    }
-
-    if (self.description != nil) {
-        return CellWithTitleAndDescription;
-    }
-
     return CellWithTitle;
+
+//    uncomment once other cells are done
+//    if ([self.mediaType isEqualToString:@"video"]) {
+//        if (self.title != nil) {
+//            return VideoCellWithTitle;
+//        }
+//        return VideoCell;
+//    }
+//    else if ([self.mediaType isEqualToString:@"image"]) {
+//        if (self.title != nil) {
+//            return ImageCellWithTitle;
+//        }
+//        return ImageCell;
+//    }
+//
+//    if (self.description != nil) {
+//        return CellWithTitleAndDescription;
+//    }
+//
+//    return CellWithTitle;
 }
 
 - (ItemCell *)getCell {

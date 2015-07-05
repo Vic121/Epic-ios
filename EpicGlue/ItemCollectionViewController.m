@@ -89,7 +89,7 @@ NSString * const NewItemsNotification = @"NewItemsNotification";
 {
     Item *model = [self.itemListManager.dataSource itemAtIndex:indexPath.item];
 
-    TitleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell_with_title" forIndexPath:indexPath];
+    TitleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[model getCellIdentifier] forIndexPath:indexPath];
     [cell setContent:model];
 
     return cell;
