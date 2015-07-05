@@ -32,7 +32,12 @@ NSString * const NewItemsNotification = @"NewItemsNotification";
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerNib:[UINib nibWithNibName:@"TitleCell" bundle:nil] forCellWithReuseIdentifier:@"cell_with_title"];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"TitleCell" bundle:nil] forCellWithReuseIdentifier:CellWithTitle];
+//    [self.collectionView registerNib:[UINib nibWithNibName:@"TitleWithDescriptionCell" bundle:nil] forCellWithReuseIdentifier:CellWithTitleAndDescription];
+//    [self.collectionView registerNib:[UINib nibWithNibName:@"ImageCell" bundle:nil] forCellWithReuseIdentifier:ImageCell];
+//    [self.collectionView registerNib:[UINib nibWithNibName:@"ImageWithTitleCell" bundle:nil] forCellWithReuseIdentifier:ImageCellWithTitle];
+//    [self.collectionView registerNib:[UINib nibWithNibName:@"VideoCell" bundle:nil] forCellWithReuseIdentifier:VideoCell];
+//    [self.collectionView registerNib:[UINib nibWithNibName:@"VideoWithTitleCell" bundle:nil] forCellWithReuseIdentifier:VideoCellWithTitle];
 
     [[NSNotificationCenter defaultCenter] addObserverForName:NewItemsNotification
                                                       object:nil

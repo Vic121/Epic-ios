@@ -6,6 +6,12 @@
 #import "Item.h"
 #import "ItemCell.h"
 
+NSString * const ImageCell = @"ImageCell";
+NSString * const ImageCellWithTitle = @"ImageCellWithTitle";
+NSString * const VideoCell = @"VideoCell";
+NSString * const VideoCellWithTitle = @"VideoCellWithTitle";
+NSString * const CellWithTitle = @"CellWithTitle";
+NSString * const CellWithTitleAndDescription = @"CellWithTitleAndDescription";
 
 @implementation Item {
 
@@ -109,7 +115,25 @@
 }
 
 - (NSString *)getCellIdentifier {
-    return @"cell_with_title";
+
+    if ([self.mediaType isEqualToString:@"video"]) {
+        if (self.title != nil) {
+            return VideoCellWithTitle;
+        }
+        return VideoCell;
+    }
+    else if ([self.mediaType isEqualToString:@"image"]) {
+        if (self.title != nil) {
+            return ImageCellWithTitle;
+        }
+        return ImageCell;
+    }
+
+    if (self.description != nil) {
+        return CellWithTitleAndDescription;
+    }
+
+    return CellWithTitle;
 }
 
 - (ItemCell *)getCell {

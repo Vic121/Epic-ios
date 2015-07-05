@@ -7,6 +7,12 @@
 
 @class ItemCell;
 
+extern NSString * const ImageCell;
+extern NSString * const ImageCellWithTitle;
+extern NSString * const VideoCell;
+extern NSString * const VideoCellWithTitle;
+extern NSString * const CellWithTitle;
+extern NSString * const CellWithTitleAndDescription;
 
 @interface Item : NSObject
 
