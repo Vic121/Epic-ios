@@ -63,28 +63,28 @@
     return @"/items";
 }
 
-- (NSURL *)getURL {
+- (NSString *)getURL {
     NSString *url;
     NSString *domain = @"http://192.168.1.115:7000";
 
 
     if (self.mainFilter == nil) {
-        url = [NSString stringWithFormat:@"%s%s", domain, [self getAllPath]];
+        url = [NSString stringWithFormat:@"%@%@", domain, [self getAllPath]];
     }
     else if (self.mainFilter.subscription != nil) {
-        url = [NSString stringWithFormat:@"%s/sub/%d", domain, self.mainFilter.subscription.subscriptionId];
+        url = [NSString stringWithFormat:@"%@/sub/%d", domain, self.mainFilter.subscription.subscriptionId];
     }
     else if (self.mainFilter.service != nil) {
-        url = [NSString stringWithFormat:@"%s/service/%s", domain, self.mainFilter.service.shortName];
+        url = [NSString stringWithFormat:@"%@/service/%@", domain, self.mainFilter.service.shortName];
     }
     else {
-        url = [NSString stringWithFormat:@"%s%s", domain, [self getAllPath]];
+        url = [NSString stringWithFormat:@"%@%@", domain, [self getAllPath]];
     }
 
     if ([self.additionalFilters count] > 0) {
         NSMutableArray *params;
         for (Filter *filter in self.additionalFilters) {
-            [params addObject:[NSString stringWithFormat:@"%s=%s", filter.key, [filter.value urlEncodedString]]];
+            [params addObject:[NSString stringWithFormat:@"%@=%@", filter.key, [filter.value urlEncodedString]]];
         }
 
         if ([params count] > 0) {
@@ -92,9 +92,7 @@
         }
     }
 
-    NSLog(url);
-
-    return [NSURL URLWithString:url];
+    return url;
 }
 
 #pragma mark Fetch

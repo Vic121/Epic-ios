@@ -25,7 +25,7 @@
 }
 
 - (int)count {
-    return [self.list count];
+    return (int)[self.list count];
 }
 
 

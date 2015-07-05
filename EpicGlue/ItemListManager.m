@@ -62,7 +62,6 @@
     // start caching items
 
     // TODO: nextToken, prevToken, nextURL, prevURL
-    // TODO: should act as data source
     return NO;
 }
 

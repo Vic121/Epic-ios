@@ -16,7 +16,7 @@
 
 + (ItemList *)instance;
 
-- (void)addItem:(Item *)item;
+- (void)addItem:(NSDictionary *)item;
 
 - (Item *)getItemAtIndex:(NSInteger)index;
 
