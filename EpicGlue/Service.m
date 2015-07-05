@@ -18,6 +18,7 @@
     NSDate *_createdAt;
     NSDate *_updatedAt;
 }
+
 @synthesize serviceId = _serviceId;
 @synthesize categoryId = _categoryId;
 @synthesize shortName = _shortName;
