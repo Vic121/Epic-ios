@@ -8,9 +8,11 @@
 #import "FilterList.h"
 #import "ItemList.h"
 #import "Item.h"
-#import "URL.h"
 #import "Connector.h"
 #import "ItemCollectionViewController.h"
+#import "Subscription.h"
+#import "Service.h"
+#import "NSString+ABXURLEncoding.h"
 
 
 @implementation DataSource {
@@ -25,7 +27,7 @@
 @synthesize itemList = _itemList;
 
 #pragma mark -
-#pragma mark init
+#pragma mark Init
 
 + (DataSource *)initWithFilter:(Filter *)filter {
     DataSource *ds = [DataSource instance];
@@ -55,12 +57,52 @@
     return _instance;
 }
 
-#pragma mark data
+#pragma mark URL
+
+- (NSString *)getAllPath {
+    return @"/items";
+}
+
+- (NSURL *)getURL {
+    NSString *url;
+    NSString *domain = @"http://192.168.1.115:7000";
+
+
+    if (self.mainFilter == nil) {
+        url = [NSString stringWithFormat:@"%s%s", domain, [self getAllPath]];
+    }
+    else if (self.mainFilter.subscription != nil) {
+        url = [NSString stringWithFormat:@"%s/sub/%d", domain, self.mainFilter.subscription.subscriptionId];
+    }
+    else if (self.mainFilter.service != nil) {
+        url = [NSString stringWithFormat:@"%s/service/%s", domain, self.mainFilter.service.shortName];
+    }
+    else {
+        url = [NSString stringWithFormat:@"%s%s", domain, [self getAllPath]];
+    }
+
+    if ([self.additionalFilters count] > 0) {
+        NSMutableArray *params;
+        for (Filter *filter in self.additionalFilters) {
+            [params addObject:[NSString stringWithFormat:@"%s=%s", filter.key, [filter.value urlEncodedString]]];
+        }
+
+        if ([params count] > 0) {
+            url = [params componentsJoinedByString:@"&"];
+        }
+    }
+
+    NSLog(url);
+
+    return [NSURL URLWithString:url];
+}
+
+#pragma mark Fetch
 
 - (void)fetch {
     Connector *conn = [Connector instance];
 
-    [conn sendGET:[URL getByDataSource:self] success:^(NSDictionary *source) {
+    [conn sendGET:[self getURL] success:^(NSDictionary *source) {
         if ([source objectForKey:@"error"] != nil) {
             NSLog(@"%@", source);
             return;
@@ -76,7 +118,6 @@
                 continue;
             }
 
-//            NSLog(@"added %@", item.author);
             [newList addItem:json];
         }
 
@@ -89,7 +130,7 @@
     }];
 }
 
-# pragma mark data source
+# pragma mark Data Source
 
 - (int)itemsCount {
     return [self.itemList count];

@@ -21,6 +21,9 @@
 + (DataSource *)initWithFilter:(Filter *)filter;
 + (DataSource *)initWithFilters:(Filter *)filter and:(FilterList *)list;
 
+- (NSString *)getAllPath;
+
+- (NSURL *)getURL;
 - (ItemList *)fetch;
 
 - (int)itemsCount;

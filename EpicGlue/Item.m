@@ -4,6 +4,7 @@
 //
 
 #import "Item.h"
+#import "ItemCell.h"
 
 
 @implementation Item {
@@ -110,5 +111,10 @@
 - (NSString *)getCellIdentifier {
     return @"cell_with_title";
 }
+
+- (ItemCell *)getCell {
+    return nil;
+}
+
 
 @end

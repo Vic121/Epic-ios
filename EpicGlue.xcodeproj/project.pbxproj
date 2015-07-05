@@ -15,7 +15,6 @@
 		62DD217A2ED9E3D4963827E8 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26C05174E64DA47C31AC /* Location.m */; };
 		62DD219E59DA875640047728 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26E909FCD22D0A64EE4F /* Task.m */; };
 		62DD225741567C902B0F743E /* Connector.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26822A9FAB6895A351B2 /* Connector.m */; };
-		62DD2269A2E45E74D6E7A93A /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD24E2B951E9F16AFF428A /* URL.m */; };
 		62DD226EBB645CA77189E6FF /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2C915B5BA4622FB528E7 /* Filter.m */; };
 		62DD229DA7AA359AC87229C4 /* ItemListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2D9729B7E152A07B4FC0 /* ItemListManager.m */; };
 		62DD24225B221ED525F88689 /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD20372E7625EE80EC68AD /* Subscription.m */; };
@@ -30,13 +29,11 @@
 		62DD27FDE1942867A3029AA8 /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2826B0898CE6981C6E82 /* Plan.m */; };
 		62DD2871EB7CD85E534A0403 /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD25D44366DB7E88594E3B /* Source.m */; };
 		62DD288B02B7DB13CB7332F1 /* UserStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CD1E5D3E8286B7CD19B /* UserStat.m */; };
-		62DD2894AEE787E05933BDB2 /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD24E2B951E9F16AFF428A /* URL.m */; };
 		62DD289CAC2D677D3E31C164 /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD20372E7625EE80EC68AD /* Subscription.m */; };
 		62DD292C85E67B9236F1870E /* Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD25D44366DB7E88594E3B /* Source.m */; };
 		62DD296EF49D877694070286 /* APIRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CD6655B7BF63C8C8748 /* APIRequestTask.m */; };
 		62DD297145756A7593CF409D /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD269137479F5DC486E92B /* Item.m */; };
 		62DD299633436992AD043E16 /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2B9E52F412AD9D750395 /* Token.m */; };
-		62DD2A4AB8FDE0D1C4D66D78 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26BAF1D4A9788CAD03B8 /* JSON.m */; };
 		62DD2A9D3BDB199D47C5FD0B /* ImageFetchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2CC04928BA986A6B8295 /* ImageFetchTask.m */; };
 		62DD2AA467134F3F842D35C2 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2F4FDB9198F6F99A43AB /* Service.m */; };
 		62DD2AB8DE7CC9AD75788456 /* ItemReadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD274357C9ACF556E9E9EA /* ItemReadTask.m */; };
@@ -44,7 +41,6 @@
 		62DD2B9FC290A7D1A447B828 /* DateParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2AA5D104A2D5AC32EAB9 /* DateParser.m */; };
 		62DD2BB2373714767E8BCBA6 /* ItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2292567D5D6B3841ED7A /* ItemList.m */; };
 		62DD2BBB23F7B3E6D6D84E79 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD22428AFDA4B5F2094370 /* User.m */; };
-		62DD2C0AEA2631C3459DADE1 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26BAF1D4A9788CAD03B8 /* JSON.m */; };
 		62DD2C3DD678C7FBF496B136 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD26640BDA5009B7A90066 /* DataSource.m */; };
 		62DD2C577B6653314F227A74 /* ItemReadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD274357C9ACF556E9E9EA /* ItemReadTask.m */; };
 		62DD2C697902FE94BA6ABDDD /* FilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2056DD4EB59F5C91DED6 /* FilterList.m */; };
@@ -90,7 +86,6 @@
 		62DD20372E7625EE80EC68AD /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
 		62DD204CD08D2AEB3BE2B068 /* ItemListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListManager.h; sourceTree = "<group>"; };
 		62DD2056DD4EB59F5C91DED6 /* FilterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterList.m; sourceTree = "<group>"; };
-		62DD20F0DA8D85A68E21C234 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		62DD20F939C49300E1D5ED4F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		62DD21035E6AEEC8C0C9C1C0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EpicGlue/AppDelegate.h; sourceTree = "<group>"; };
 		62DD22428AFDA4B5F2094370 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
@@ -100,7 +95,6 @@
 		62DD23BD03AD3C7E4C135ADF /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
 		62DD23E86CA420DBA307D800 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EpicGlue/AppDelegate.m; sourceTree = "<group>"; };
 		62DD24BFC344AE3E7DA1BE76 /* RequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTask.m; sourceTree = "<group>"; };
-		62DD24E2B951E9F16AFF428A /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
 		62DD250201BA86ABA6C936F2 /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
 		62DD25A0C13298D72208F4FB /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
 		62DD25D44366DB7E88594E3B /* Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Source.m; sourceTree = "<group>"; };
@@ -110,13 +104,11 @@
 		62DD26822A9FAB6895A351B2 /* Connector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.m; sourceTree = "<group>"; };
 		62DD269137479F5DC486E92B /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		62DD26AEE7329CBD83760E60 /* APIRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestTask.h; sourceTree = "<group>"; };
-		62DD26BAF1D4A9788CAD03B8 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
 		62DD26C05174E64DA47C31AC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		62DD26E909FCD22D0A64EE4F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		62DD274357C9ACF556E9E9EA /* ItemReadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemReadTask.m; sourceTree = "<group>"; };
 		62DD275B01047AC71873B389 /* ImageFetchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFetchTask.h; sourceTree = "<group>"; };
 		62DD2791B6AA95C902EA740B /* UserSocialProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSocialProfile.h; sourceTree = "<group>"; };
-		62DD28031A46D05F2B307373 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
 		62DD2826B0898CE6981C6E82 /* Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
 		62DD28F47A9A6BA282A9CC6B /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
 		62DD28FCB80C31FAA1E6450F /* UserStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStat.h; sourceTree = "<group>"; };
@@ -228,8 +220,6 @@
 				62DD26822A9FAB6895A351B2 /* Connector.m */,
 				62DD2AA5D104A2D5AC32EAB9 /* DateParser.m */,
 				62DD25A0C13298D72208F4FB /* Connector.h */,
-				62DD26BAF1D4A9788CAD03B8 /* JSON.m */,
-				62DD20F0DA8D85A68E21C234 /* JSON.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -334,8 +324,6 @@
 				62DD26C05174E64DA47C31AC /* Location.m */,
 				62DD2E42D2759115D76A998E /* Location.h */,
 				62DD2F870EAB667B17D182F2 /* Common */,
-				62DD24E2B951E9F16AFF428A /* URL.m */,
-				62DD28031A46D05F2B307373 /* URL.h */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -623,8 +611,6 @@
 				62DD2E12383F968FC2AF2026 /* Location.m in Sources */,
 				62DD225741567C902B0F743E /* Connector.m in Sources */,
 				62DD2B9FC290A7D1A447B828 /* DateParser.m in Sources */,
-				62DD2A4AB8FDE0D1C4D66D78 /* JSON.m in Sources */,
-				62DD2269A2E45E74D6E7A93A /* URL.m in Sources */,
 				62DD2B41675970152A4E56DD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,8 +642,6 @@
 				62DD20890CCC11A4FEF47FAA /* FilterList.m in Sources */,
 				62DD217A2ED9E3D4963827E8 /* Location.m in Sources */,
 				62DD2CD9FE16F504F12B0313 /* DateParser.m in Sources */,
-				62DD2C0AEA2631C3459DADE1 /* JSON.m in Sources */,
-				62DD2894AEE787E05933BDB2 /* URL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
