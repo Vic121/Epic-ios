@@ -67,6 +67,10 @@
 		EA4540001AB4A2CF00C7248D /* SingleItemCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA453FFF1AB4A2CF00C7248D /* SingleItemCollectionLayout.m */; };
 		EA544EE01AB45F0600B22EF6 /* ItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */; };
 		EA544EE31AB45F3600B22EF6 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA544EE21AB45F3600B22EF6 /* ItemCell.m */; };
+		EA6676F21B48FD5800B51F85 /* hacker_news.json in Resources */ = {isa = PBXBuildFile; fileRef = EA6676EE1B48FD5800B51F85 /* hacker_news.json */; };
+		EA6676F31B48FD5800B51F85 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = EA6676EF1B48FD5800B51F85 /* items.json */; };
+		EA6676F41B48FD5800B51F85 /* product_hunt.json in Resources */ = {isa = PBXBuildFile; fileRef = EA6676F01B48FD5800B51F85 /* product_hunt.json */; };
+		EA6676F51B48FD5800B51F85 /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = EA6676F11B48FD5800B51F85 /* twitter.json */; };
 		EAF2FE361B426F970052A977 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF2FE351B426F970052A977 /* TitleCell.xib */; };
 		EAF2FE3F1B43C1750052A977 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2FE381B43C1750052A977 /* TitleCell.m */; };
 /* End PBXBuildFile section */
@@ -157,6 +161,10 @@
 		EA544EDF1AB45F0600B22EF6 /* ItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewController.m; sourceTree = "<group>"; };
 		EA544EE11AB45F3600B22EF6 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		EA544EE21AB45F3600B22EF6 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		EA6676EE1B48FD5800B51F85 /* hacker_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hacker_news.json; sourceTree = "<group>"; };
+		EA6676EF1B48FD5800B51F85 /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		EA6676F01B48FD5800B51F85 /* product_hunt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_hunt.json; sourceTree = "<group>"; };
+		EA6676F11B48FD5800B51F85 /* twitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter.json; sourceTree = "<group>"; };
 		EAF2FE351B426F970052A977 /* TitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		EAF2FE371B43C1750052A977 /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
 		EAF2FE381B43C1750052A977 /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
@@ -269,6 +277,10 @@
 				EA320A5B1AA8CB7C008A3F02 /* EpicGlue.xcdatamodeld */,
 				EA320A541AA8CB7C008A3F02 /* Supporting Files */,
 				62DD2C09C941CAB54D565E49 /* Tasks */,
+				EA6676EE1B48FD5800B51F85 /* hacker_news.json */,
+				EA6676EF1B48FD5800B51F85 /* items.json */,
+				EA6676F01B48FD5800B51F85 /* product_hunt.json */,
+				EA6676F11B48FD5800B51F85 /* twitter.json */,
 			);
 			path = EpicGlue;
 			sourceTree = "<group>";
@@ -498,8 +510,12 @@
 			files = (
 				EA320A631AA8CB7C008A3F02 /* Main.storyboard in Resources */,
 				EA320A681AA8CB7C008A3F02 /* LaunchScreen.xib in Resources */,
+				EA6676F31B48FD5800B51F85 /* items.json in Resources */,
 				EAF2FE361B426F970052A977 /* TitleCell.xib in Resources */,
+				EA6676F21B48FD5800B51F85 /* hacker_news.json in Resources */,
+				EA6676F41B48FD5800B51F85 /* product_hunt.json in Resources */,
 				EA320A651AA8CB7C008A3F02 /* Images.xcassets in Resources */,
+				EA6676F51B48FD5800B51F85 /* twitter.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

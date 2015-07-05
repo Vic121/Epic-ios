@@ -97,13 +97,20 @@ NSString * const SERVER = @"http://46.4.68.112:7000";
 #pragma mark Fetch
 
 - (void)fetch {
-    Connector *conn = [Connector instance];
+    // uncomment to use real server
+//    Connector *conn = [Connector instance];
+//
+//    [conn sendGET:[self getURL] success:^(NSDictionary *source) {
+//        [self processData:source];
+//    }     failure:^(NSError *error) {
+//        NSLog(@"fail");
+//    }];
 
-    [conn sendGET:[self getURL] success:^(NSDictionary *source) {
-        [self processData:source];
-    }     failure:^(NSError *error) {
-        NSLog(@"fail");
-    }];
+    // load mock file
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"items" ofType:@"json"];
+    NSData *JSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:nil];
+    NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingMutableContainers error:nil];
+    [self processData:jsonObject];
 }
 
 - (void)processData:(NSDictionary *)data {

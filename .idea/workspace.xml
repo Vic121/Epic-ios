@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f4c89a-5304-463e-8b9c-bf57b801b18b" name="Default" comment="Cleanup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/hacker_news.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/items.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/product_hunt.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EpicGlue/twitter.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/EpicGlue.xcworkspace/xcuserdata/marek.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DataSource.h" afterPath="$PROJECT_DIR$/EpicGlue/DataSource.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/DataSource.m" afterPath="$PROJECT_DIR$/EpicGlue/DataSource.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/Item.m" afterPath="$PROJECT_DIR$/EpicGlue/Item.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" afterPath="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/EpicGlue.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ios.iws" />
@@ -35,12 +37,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataSource.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataSource.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2055">
-              <caret line="93" column="60" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
-              <folding />
+            <state vertical-scroll-proportion="0.6581986" vertical-offset="1350" max-vertical-offset="2340">
+              <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+              <folding>
+                <element signature="e#110#132#0" expanded="true" />
+                <element signature="e#540#577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Item.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12471132" vertical-offset="1341" max-vertical-offset="1905">
+            <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1905">
               <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
               <folding />
             </state>
@@ -138,9 +143,9 @@
         <option value="$PROJECT_DIR$/EpicGlue/Item.h" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemListManager.m" />
         <option value="$PROJECT_DIR$/EpicGlue/DataSource.h" />
-        <option value="$PROJECT_DIR$/EpicGlue/DataSource.m" />
         <option value="$PROJECT_DIR$/EpicGlue/ItemCollectionViewController.m" />
         <option value="$PROJECT_DIR$/EpicGlue/Item.m" />
+        <option value="$PROJECT_DIR$/EpicGlue/DataSource.m" />
       </list>
     </option>
   </component>
@@ -953,18 +958,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.h">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1905">
+          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2055">
-          <caret line="93" column="60" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -977,11 +982,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpicGlue/Item.m">
+    <entry file="file://$PROJECT_DIR$/EpicGlue/DataSource.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12471132" vertical-offset="1341" max-vertical-offset="1905">
-          <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.6581986" vertical-offset="1350" max-vertical-offset="2340">
+          <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+          <folding>
+            <element signature="e#110#132#0" expanded="true" />
+            <element signature="e#540#577#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
