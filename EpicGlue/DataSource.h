@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const SERVER;
+
 @class Filter;
 @class FilterList;
 @class ItemList;
@@ -24,6 +26,7 @@
 - (NSString *)getAllPath;
 - (NSString *)getURL;
 - (void)fetch;
+- (void)processData:(NSDictionary *)data;
 
 - (int)itemsCount;
 - (Item *)itemAtIndex:(NSInteger)index;

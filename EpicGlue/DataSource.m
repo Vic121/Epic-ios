@@ -14,6 +14,7 @@
 #import "Service.h"
 #import "NSString+ABXURLEncoding.h"
 
+NSString * const SERVER = @"http://46.4.68.112:7000";
 
 @implementation DataSource {
 
@@ -65,20 +66,18 @@
 
 - (NSString *)getURL {
     NSString *url;
-    NSString *domain = @"http://192.168.1.115:7000";
-
 
     if (self.mainFilter == nil) {
-        url = [NSString stringWithFormat:@"%@%@", domain, [self getAllPath]];
+        url = [NSString stringWithFormat:@"%@", [self getAllPath]];
     }
     else if (self.mainFilter.subscription != nil) {
-        url = [NSString stringWithFormat:@"%@/sub/%d", domain, self.mainFilter.subscription.subscriptionId];
+        url = [NSString stringWithFormat:@"/sub/%d", self.mainFilter.subscription.subscriptionId];
     }
     else if (self.mainFilter.service != nil) {
-        url = [NSString stringWithFormat:@"%@/service/%@", domain, self.mainFilter.service.shortName];
+        url = [NSString stringWithFormat:@"/service/%@", self.mainFilter.service.shortName];
     }
     else {
-        url = [NSString stringWithFormat:@"%@%@", domain, [self getAllPath]];
+        url = [NSString stringWithFormat:@"%@", [self getAllPath]];
     }
 
     if ([self.additionalFilters count] > 0) {
@@ -92,7 +91,7 @@
         }
     }
 
-    return url;
+    return [NSString stringWithFormat:@"%@%@", SERVER, url];
 }
 
 #pragma mark Fetch
@@ -101,31 +100,34 @@
     Connector *conn = [Connector instance];
 
     [conn sendGET:[self getURL] success:^(NSDictionary *source) {
-        if ([source objectForKey:@"error"] != nil) {
-            NSLog(@"%@", source);
-            return;
-        }
-
-        ItemList *newList = [ItemList instance];
-
-        for (NSDictionary *json in [source objectForKey:@"data"]) {
-            Item *item = [Item fromJSON:json];
-
-            if (item == nil) {
-                NSLog(@"item failed from url %@", json);
-                continue;
-            }
-
-            [newList addItem:json];
-        }
-
-        NSLog(@"Added %d items", [newList count]);
-
-        [[NSNotificationCenter defaultCenter] postNotificationName:NewItemsNotification object:newList];
-
+        [self processData:source];
     }     failure:^(NSError *error) {
         NSLog(@"fail");
     }];
+}
+
+- (void)processData:(NSDictionary *)data {
+    if ([data objectForKey:@"error"] != nil) {
+        NSLog(@"%@", data);
+        return;
+    }
+
+    ItemList *newList = [ItemList instance];
+
+    for (NSDictionary *json in [data objectForKey:@"data"]) {
+        Item *item = [Item fromJSON:json];
+
+        if (item == nil) {
+            NSLog(@"item failed from url %@", json);
+            continue;
+        }
+
+        [newList addItem:json];
+    }
+
+    NSLog(@"Added %d items", [newList count]);
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:NewItemsNotification object:newList];
 }
 
 # pragma mark Data Source
